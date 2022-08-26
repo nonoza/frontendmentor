@@ -51,7 +51,7 @@ This was a simple component that I had to build. I learned SASS in building this
 
 ### Useful resources
 
-- [Example resource 1](https://sass-lang.com/guide) - The Sass website has been helping in following all the steps in building with Sass
+- [Sass](https://sass-lang.com/guide) - The Sass website has been helping in following all the steps in building with Sass
 
 
 
