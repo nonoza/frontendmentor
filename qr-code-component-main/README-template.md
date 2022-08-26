@@ -13,7 +13,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
+
 
 
 
@@ -26,8 +26,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/qr-code-component-using-sass-D1pxDunfH-)
-- Live Site URL: [Add live site URL here]([https://your-live-site-url.com](https://nonoza.github.io/qr-code-component-main/))
+- Solution URL: [Link to Soulution](https://www.frontendmentor.io/solutions/qr-code-component-using-sass-D1pxDunfH-)
+- Live Site URL: [Link to Live]([[https://your-live-site-url.com](https://nonoza.github.io/qr-code-component-main/)](https://nonoza.github.io/qr-code-component-main/))
 
 ## My process
 
@@ -45,9 +45,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 This was a simple component that I had to build. I learned SASS in building this project and also upskilling my flexbox skills.
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 
 
