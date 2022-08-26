@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,100;9..144,500;9..144,900&family=Outfit:wght@400;700&display=swap");
+body {
+  background-color: #d6e2f0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+  overflow-y: hidden;
+}
+
+.container {
+  width: 292px;
+  height: 454px;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 20px;
+  padding: 28px;
+}
+
+.container .qr-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .qr-image img {
+  width: 315px;
+  border-radius: 20px;
+  height: 321px;
+}
+
+.container .qr-content {
+  padding: 20px;
+}
+
+.container .qr-content .qr-title h1 {
+  margin: 0;
+  font-size: 20px;
+  font-family: "Outfit", sans-serif;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.container .qr-content .qr-copy p {
+  margin: 0;
+  font-size: 15px;
+  font-family: "Outfit", sans-serif;
+  text-align: center;
+  color: #7b879d;
+}
+/*# sourceMappingURL=styles.css.map */

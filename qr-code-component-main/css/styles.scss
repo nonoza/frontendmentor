@@ -1,0 +1,54 @@
+@import '../css/colors.scss';
+@import '../css/typography.scss';
+body{
+    background-color: $lightGrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height:100vh;
+    overflow-y: hidden;
+}
+.container {
+    width: 292px;
+    height: 454px;
+    background-color:$white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 28px;
+    
+    .qr-image {
+        display: flex;
+        justify-content: center;
+        img {
+            width: 315px;
+            border-radius: 20px;
+            height: 321px;
+    
+        }
+    }
+    .qr-content{
+        padding: 20px;
+        .qr-title {
+            h1{
+                margin: 0;
+                font-size: 20px;
+                font-family: $fonts;
+                margin-bottom: 12px;
+                text-align: center;
+            }
+        }
+        .qr-copy {
+            p {
+                margin: 0;
+                font-size: 15px;
+                font-family: $fonts;
+                text-align: center;
+             
+                color: $grayishBlue;
+            }
+        }
+    }
+}
