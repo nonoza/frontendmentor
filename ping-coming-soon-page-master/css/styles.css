@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap');
+body {
+    padding: 20px;
+    font-family: 'Libre Franklin', sans-serif;
+}
+h1,p {
+    margin: 0;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.logo {
+    margin-bottom: 42px;
+}
+.heading h1 {
+    font-size: 40px;
+    font-weight: 300;
+    color: hsl(0, 0%, 59%);
+    margin-bottom: 33px;
+}
+h1 span {
+    font-weight: 700;
+    color: hsl(209, 33%, 12%);
+}
+.sub-heading p {
+    font-weight: 300;
+    margin-bottom: 45px;
+    font-size: 20px;
+
+}
+form {
+    margin-bottom: 91px;
+}
+input#email {
+    width: 421px;
+    height: 60px;
+    border-radius: 30px;
+    border: 1px solid hsl(0, 0%, 59%);
+}
+::placeholder{
+    padding: 20px;
+    
+}
+::placeholder,input#email:focus-visible {
+    font-weight: lighter;
+    color: hsl(0, 0%, 59%);
+    font-size: 16px;
+}
+::placeholder:active{
+    margin-left: 12px;
+}
+input#email:focus {
+    font-weight: lighter;
+    color: hsl(0, 0%, 59%);
+    font-size: 16px;
+    margin-left: 20px;
+}
+button.cta {
+    width: 198px;
+    height: 60px;
+    border-radius: 30px;
+    border: none;
+    background-color: hsl(223, 87%, 63%);
+    color: #fff;
+    cursor: pointer;
+    margin-left: 12px;
+    font-weight: 700;
+    box-shadow: 1px 4px 10px hsl(0, 0%, 59%);
+}
+.image-placeholder img {
+    width: 643px;
+    margin-bottom: 95px;
+}
+small {
+    display: grid;
+    margin: 20px;
+    color: hsl(354, 100%, 66%);
+    font-style: italic;
+}
+svg {
+    color: hsl(223, 87%, 63%);
+    padding: 11px;
+    background-color: #fff;
+    border: 1px solid hsl(0, 0%, 59%);;
+    border-radius: 100%;
+    width: 18px;
+    margin: 12px;
+    opacity: 0.8;
+}
+svg:hover {
+    background-color: hsl(223, 87%, 63%);
+    color: #fff;
+    border: none;
+}
+footer {
+    text-align: center;
+}
+.copyright p , p.attribution {
+    font-size: 14px;
+}
+.copyright {
+    margin-bottom: 12px;
+}
+@media screen and (max-width: 414px){
+    .image-placeholder img {
+        width: 300px;
+    }
+    .heading h1 {
+        font-size: 25px;
+    }
+    input#email {
+        width: 307px;
+        margin-bottom: 17px;
+    }
+    button.cta {
+        width: 313px;
+        margin-left: 0;
+    }
+    input#email:focus{
+        margin-left: 0;
+    }
+
+}
