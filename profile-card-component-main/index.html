@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/style.css"/>
+  <title>Frontend Mentor | Profile card component</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+h1, h2, h3, h4, h5, p {
+  margin: 0;
+}
+body {
+font-family: 'Kumbh Sans', sans-serif; 
+font-size: 16px; 
+background: url(images/bg-pattern-top.svg),url(images/bg-pattern-bottom.svg);
+font-family: 'Kumbh Sans', sans-serif;
+font-size: 18px;
+min-height: 100vh;
+width: 100vw;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-color: hsl(185, 75%, 39%);
+background-repeat: no-repeat, no-repeat;
+background-position: bottom 50vh right 50vw, top 50vh left 50vw;
+}
+.box-component{
+  width: 300px;
+  height: 360px;
+  background-color: #fff;
+  position :absolute;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%,-50%);
+  border-radius: 10px;
+  
+}
+.background-image img {
+border-top-right-radius: 10px;
+border-top-left-radius: 10px;
+}
+.avatar {
+  position: absolute;
+  top: 24%;
+  left: 30%;
+  text-align: center;
+}
+.avatar img {
+border-radius: 52%;
+border: 6px solid #fff;
+}
+.avatar-name p {
+text-align: center;
+color: hsl(0, 0%, 59%);
+}
+.avatar-name span {
+font-weight: lighter;
+color: hsl(0, 0%, 59%);
+
+}
+.avatar h4 {
+font-family: 'Kumbh Sans', sans-serif;
+font-weight: 700;
+color: hsl(229, 23%, 23%);
+}
+.line {
+border-bottom: 0.5px solid #405576 ;
+padding-top: 146px;
+}
+.activities {
+display:flex;
+justify-content: space-between;
+padding: 24px 20px;
+text-align: center;
+}
+.followers,.likes,.photos{
+font-weight: 400;
+}
+.likes strong {
+  font-family: 'Kumbh Sans', sans-serif;
+
+}
+.followers strong {
+  font-family: 'Kumbh Sans', sans-serif;
+
+}
+.photos {
+  font-family: 'Kumbh Sans', sans-serif;
+ 
+}
+.followers p span ,.likes p span,.photos p span {
+  font-size: 20px;
+ color: hsl(229, 23%, 23%); 
+}
+.followers p  ,.likes p ,.photos p {
+  font-size: 13px;
+  font-family: 'Kumbh Sans', sans-serif;
+  color: hsl(0, 0%, 59%);
+}
+  </style>
+</head>
+<body >
+  <main>
+    <div class="bg">
+      <div class="box-component">
+         <div class="background-image">
+         <img src="images/bg-pattern-card.svg" alt="pattern" width="100%"/>
+         </div>
+         <div class="avatar">
+           <img src="images/image-victor.jpg" alt="avatar" />
+           <div class="avatar-name">
+            <h4>Victor Crest <span>26 </span> </h4>
+            <p>London</p>
+          </div>
+         </div>
+         <div class="line"></div>
+         <div class="activities">
+           <div class="followers">
+             <p><span><strong>80K</strong></span><br>Followers</p>
+           </div>
+           <div class="likes">
+            <p><span><strong>803K</strong></span><br>Likes</p>
+          </div>
+          <div class="photos">
+            <p><span><strong>1.4K</strong></span><br>Photos</p>
+          </div>
+         </div>
+      </div>
+    </div>
+  </main>
+
+</body>
+</html>
