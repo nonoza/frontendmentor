@@ -1,0 +1,148 @@
+@import 'styleguide.scss';
+
+body {
+    background-color: $veryLightGray;
+    font-size: $bodyCopy;
+    font-family: $copyFont;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: $transparentWhite ;
+    
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        width: 929px;
+        height: 502px;
+        border-radius: 20px;
+        @media (max-width:$smallDevices) {
+            flex-direction: column;
+            width: 300px;
+        }
+    }
+         #card-1 {
+            background-color:$brightOrange;
+            padding: $card-spacing;
+            border-radius: 10px 0 0px  10px;
+            @media (max-width:$smallDevices) {
+                border-radius: 10px 10px 0  0;
+            }
+            .card-title {
+                font-family: $headingFont;
+                font-family: $headingFont;
+                font-size: 20px;
+                text-transform: uppercase;
+                color: $veryLightGray;
+            }
+            .card-description {
+               
+                p {
+                    line-height: 28px;
+                    font-weight: 400;
+                    margin-bottom: 80px;
+                }
+            }
+            .card-btn {
+                
+                button {
+                    border: none;
+                    padding: 20px;
+                    background-color: $veryLightGray;
+                    color: $brightOrange;
+                    font-family: $copyFont;
+                    font-weight: bold;
+                    border-radius: 30px;
+                    width: 70%;
+                    text-align: center;
+                    cursor: pointer;
+                    &:active {
+                        border: 2px solid $veryLightGray;
+                        color: $veryLightGray;
+                        background: none;
+                    }
+                }
+            }
+         }
+         #card-2 {
+            background-color:$darkCyan;
+            padding: $card-spacing;
+            .card-title {
+                font-family: $headingFont;
+                font-size: 20px;
+                text-transform: uppercase;
+                color: $veryLightGray;
+            }
+            .card-description {
+               
+                p {
+                    line-height: 28px;
+                    font-weight: 400;
+                    margin-bottom: 80px;
+                }
+            }
+            .card-btn {
+                
+                button {
+                    border: none;
+                    padding: 20px;
+                    background-color: $veryLightGray;
+                    color: $darkCyan;
+                    font-family: $copyFont;
+                    font-weight: bold;
+                    border-radius: 30px;
+                    width: 70%;
+                    text-align: center;
+                    cursor: pointer;
+                    &:active {
+                        border: 2px solid $veryLightGray;
+                        color: $veryLightGray;
+                        background: none;
+                    }
+                }
+            }
+         }
+         #card-3 {
+            background-color:$veryDarkCyan;
+            padding: $card-spacing;
+            border-radius: 0 10px 10px 0;
+            @media (max-width:$smallDevices) {
+                border-radius: 0 0 10px 10px;
+            }
+            .card-title {
+                font-family: $headingFont;
+                font-size: 20px;
+                text-transform: uppercase;
+                color: $veryLightGray;
+            }
+            .card-description {
+               
+                p {
+                    line-height: 28px;
+                    font-weight: 400;
+                    margin-bottom: 80px;
+                }
+            }
+            .card-btn {
+                
+                button {
+                    border: none;
+                    padding: 20px;
+                    background-color: $veryLightGray;
+                    color: $darkCyan;
+                    font-family: $copyFont;
+                    font-weight: bold;
+                    border-radius: 30px;
+                    width: 70%;
+                    text-align: center;
+                    cursor: pointer;
+                    &:active {
+                        border: 2px solid $veryLightGray;
+                        color: $veryLightGray;
+                        background: none;
+                    }
+                }
+            }
+         }
+}
