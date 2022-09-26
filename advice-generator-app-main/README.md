@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Link to solution URL](https://github.com/nonoza/frontendmentor/tree/main/advice-generator-app-main)
-- Live Site URL: [Link to live site](https://nonoza.github.io/frontendmentor/advice-generator-app-main//)
+- Live Site URL: [Link to live site](https://nonoza.github.io/frontendmentor/advice-generator-app-main/)
 
 
 
