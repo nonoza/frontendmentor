@@ -26,9 +26,9 @@ Users should be able to:
 
 ### Screenshot
 
-![Mobile view of solution](./design/mobile.png)
+![Mobile view of solution](./design/mobile.PNG)
 
-![Desktop view of solution](./design/desktop.png)
+![Desktop view of solution](./design/desktop.PNG)
 
 ### Links
 
