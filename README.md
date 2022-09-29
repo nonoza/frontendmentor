@@ -18,5 +18,6 @@ GitHub landing page: [https://github.com/nonoza/frontendmentor](https://github.c
 | 6   | [Ping coming soon page](https://nonoza.github.io/frontendmentor/ping-coming-soon-page-master/)| [Link to GitHub repo](https://github.com/nonoza/frontendmentor/tree/main/ping-coming-soon-page-master) |
 | 7   | [Profile card component solution](https://nonoza.github.io/frontendmentor/profile-card-component-main/)| [Link to GitHub repo](https://github.com/nonoza/frontendmentor/tree/main/profile-card-component-main) |
 | 8   | [QR code component solutiont](https://elaineleung.github.io/frontendmentor/accordioncard/)| [Link to GitHub repo](https://github.com/nonoza/frontendmentor/tree/main/profile-card-component-main) |
+ 8   | [Base Apparel Coming Soon Master ](https://nonoza.github.io/frontendmentor/base-apparel-coming-soon-master//)| [Link to GitHub repo](https://github.com/nonoza/frontendmentor/tree/main/base-apparel-coming-soon-master) 
  
 
