@@ -40,7 +40,7 @@ Mobile
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://nonoza.github.io/frontendmentor/base-apparel-coming-soon-master/](https://nonoza.github.io/frontendmentor/base-apparel-coming-soon-master/)
 
 ## My process
 - Built in HTML
