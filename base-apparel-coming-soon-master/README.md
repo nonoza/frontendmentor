@@ -39,7 +39,7 @@ Mobile
 
 ### Links
 
-- Solution URL: [GIT Repo](https://github.com/nonoza/frontendmentor/tree/main/base-apparel-coming-soon-master))
+- Solution URL: [GIT Repo](https://github.com/nonoza/frontendmentor/tree/main/base-apparel-coming-soon-master)
 - Live Site URL: [Live](https://nonoza.github.io/frontendmentor/base-apparel-coming-soon-master/)
 
 ## My process
