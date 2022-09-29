@@ -43,9 +43,12 @@ Mobile
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
+- Built in HTML
+- Styled using Mobile First
+- Stlyed Desktop
+- Worked on JS
 
 ### Built with
-
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
