@@ -39,8 +39,8 @@ Mobile
 
 ### Links
 
-- Solution URL: [[Add solution URL here](https://github.com/nonoza/frontendmentor/tree/main/base-apparel-coming-soon-master)]([https://your-solution-url.com](https://github.com/nonoza/frontendmentor/tree/main/base-apparel-coming-soon-master))
-- Live Site URL: [https://nonoza.github.io/frontendmentor/base-apparel-coming-soon-master/](https://nonoza.github.io/frontendmentor/base-apparel-coming-soon-master/)
+- Solution URL: [GIT Repo](https://github.com/nonoza/frontendmentor/tree/main/base-apparel-coming-soon-master))
+- Live Site URL: [Live](https://nonoza.github.io/frontendmentor/base-apparel-coming-soon-master/)
 
 ## My process
 - Built in HTML
