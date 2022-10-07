@@ -18,8 +18,8 @@ This is a solution to the [Fylo landing page with two column layout challenge on
 
 ### Screenshot
 
-![](./images/desktop.PNG)
-![](./images/mobile.PNG)
+![desktop](./images/desktop.png)
+![mobile](./images/mobile.png)
 
 ### Links
 
