@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+:root{
+    --very-pale-cyan:hsl(193, 100%, 96%);
+    --very-dark-cyan:hsl(192, 100%, 9%);
+    --grayish-blue:hsl(208, 11%, 55%);
+    --pink:hsl(322, 100%, 66%);
+    --heading-font:'Poppins', sans-serif;
+    --body-font:'Open Sans', sans-serif;
+    --body-font-size:18px;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+img{
+    width: 100%;
+}
+body{
+    font-size: var(--body-font-size);
+    font-family: var(--body-font);
+}
+header {
+    background: url("../images/bg-hero-mobile.svg") var(--very-pale-cyan) no-repeat;
+    background-size: cover;
+    padding: 20px;
+    min-height: 100vh;
+    margin-bottom: 59px;
+
+}
+img.logo {
+    width: 50%;
+}
+section.logo-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+button.grey-btn {
+    border: none;
+    padding: 10px 11px 10px 11px;
+    border-radius: 30px;
+    width: 30%;
+    background:white;
+    box-shadow: 1px 3px 2px var(--grayish-blue);
+    font-weight: 700;
+    cursor: pointer;
+}
+.banner-section {
+    padding: 49px 19px 22px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.banner-copy h1 {
+    font-family: var(--heading-font);
+    color: var(--very-dark-cyan);
+    margin-bottom: 23px;
+}
+.banner-copy p {
+    line-height: 24px;
+    margin-bottom: 23px;
+  
+}
+button.pink-btn {
+    border: none;
+    padding: 12px;
+    width: 63%;
+    border-radius: 30px;
+    color: #fff;
+    background: var(--pink);
+    font-weight: 700;
+    height: 50px;
+    cursor: pointer;
+    margin-bottom: 28px;
+}
+.grow-together,.flow-conversation,.users {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    background: #fff;
+    box-shadow: 2px 1px 10px 1px var(--very-pale-cyan);
+    width: 77%;
+    margin: 13px;
+}
+.users-copy,.flow-conversation-copy,.grow-together-copy {
+    text-align: center;
+    margin-top: 47px;
+}
+h2 {
+    font-size: 21px;
+    font-family: var(--heading-font);
+    color: var(--very-dark-cyan);
+    margin-bottom: 27px;
+}
+.grow-together-copy p,.users-copy p,.flow-conversation-copy p {
+    line-height: 28px;
+    color: var(--grayish-blue);
+}
+.address img, .call img, .email img {
+    width: 20px;
+    height: 100%;
+    margin-right: 16px;
+}
+footer {
+    background: var(--very-dark-cyan);
+    display: flex;
+    flex-direction: column;
+    padding: 8rem 1rem;
+    color: var(--very-pale-cyan);
+}
+.footer-one figure img {
+    width: 45%;
+    margin-bottom: 24px;
+
+}
+.address,.call,.email {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 32px;
+
+}
+.call,.email{
+    align-items: center;
+}
+.email a {
+    text-decoration: none;
+    color: #fff;
+}
+section.footer-two ul li, section.footer-three ul li {
+    list-style: none;
+    padding-bottom: 20px;
+}
+section.footer-two ul li a,section.footer-three ul li a {
+   text-decoration: none;
+   color: var(--very-pale-cyan);
+}
+section.ready-sign-up-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 22px;
+    text-align: center;
+    position: relative;
+    background: #fff;
+    top: 59px;
+    width: 82%;
+    text-align: center;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 3px 7px 7px var(--very-dark-cyan);
+}
+section.ready-sign-up-section h3 {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+section.footer-four {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.fa-brands {
+    font-weight: 400;
+    padding: 17px;
+    border: 1px solid #fff;
+    border-radius: 54%;
+    height: 12px;
+    width: 19%;
+    margin: 12px;
+    text-align: center;
+    color: #fff;
+}
+section.footer-two ul li:active, section.footer-three ul li:active{
+    text-decoration: underline;
+}
+.fa-brands:active{
+    border: 1px solid var(--pink);
+}
+.fa-facebook-f:before:active{
+    color: var(--pink);
+}
+@media screen and (min-device-width: 1000px){
+    header {
+        background: url("../images/bg-hero-desktop.svg") var(--very-pale-cyan) no-repeat;
+        background-size: cover;
+        padding: 20px;
+        min-height: 50vh;
+    
+    }
+    section.logo-section {
+        padding: 15px;
+    }
+    .grow-together,.flow-conversation,.users {
+     
+        flex-direction: row;
+        width: 85%;
+        margin: 0px 70px;
+    }
+    .users-copy ,.flow-conversation-copy,.grow-together-copy {
+        text-align: left;
+        margin-top: 47px;
+    }
+    .users-copy{
+        text-align: left!important;
+    }
+    .grow-together,.users {
+        flex-direction: row-reverse;
+    }
+    .grow-together-copy p,.users-copy p,.flow-conversation-copy p {
+        width: 74%;
+    }
+    img.logo {
+        width: 73%;
+    }
+    .banner-section {
+        flex-direction: row;
+     
+    }
+    .banner-copy{
+        text-align: left;
+    }
+    button.grey-btn {
+        width: 11%;
+    }
+    .banner-copy h1{
+        font-size: 56px;
+        line-height: 63px;
+    }
+    .banner-copy p {
+        width: 70%;
+    }
+    button.pink-btn {
+        width: 35%;
+    }
+  .footer-one,.footer-two,.footer-three,.footer-four{
+        width: 50%;
+    }
+    footer {
+        flex-direction: row;
+        justify-content: center;
+        align-items: baseline;
+        padding: 7%;
+
+    }
+    section.ready-sign-up-section {
+        width: 40%;
+        height: 200px;
+
+    }
+    section.ready-sign-up-section h3 {
+       font-size: 30px!important;
+    }
+   
+    .address p {
+        width: 432px;
+        margin-right: 44px;
+    }
+}
