@@ -1,4 +1,4 @@
-- Live Site URL: [here](https://kevinburle.github.io/interactive-rating-component_FEM/)
+- Live Site URL: [here](https://nonoza.github.io/frontendmentor/interactive-rating-component-main/)
 
 # Frontend Mentor - Interactive rating component solution
 
