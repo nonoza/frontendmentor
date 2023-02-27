@@ -20,3 +20,4 @@ GitHub landing page: [https://github.com/nonoza/frontendmentor](https://github.c
 | 8  | [Base Apparel Coming Soon Master ](https://nonoza.github.io/frontendmentor/base-apparel-coming-soon-master/)| [Link to GitHub repo](https://github.com/nonoza/frontendmentor/tree/main/base-apparel-coming-soon-master) |
 | 9  | [FAQ accordion card ](https://nonoza.github.io/frontendmentor/faq-accordion-card-main/)| [Link to GitHub repo](https://github.com/nonoza/frontendmentor/tree/main/faq-accordion-card-main) |
 | 10  | [QR code component solution](https://nonoza.github.io/frontendmentor/qr-code-component-main//)| [Link to GitHub repo](https://github.com/nonoza/frontendmentor/tree/main/qr-code-component-main) |
+| 11  | [Clipboard Landing Page ](https://nonoza.github.io/frontendmentor/clipboard-landing-page-master/)| [Link to GitHub repo](https://github.com/nonoza/frontendmentor/tree/main/clipboard-landing-page-master) |
