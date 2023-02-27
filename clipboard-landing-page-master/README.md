@@ -26,7 +26,7 @@ This is a solution to the [Clipboard landing page challenge on Frontend Mentor](
 
 ![Mobile view of solution](./images/mobile-sce.png)
 
-![Desktop view of solution](./images/desktop-sce.PNG)
+![Desktop view of solution](./images/desktop-sce.png)
 
 
 
