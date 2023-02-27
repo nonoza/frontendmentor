@@ -31,8 +31,8 @@ This is a solution to the [Clipboard landing page challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: [[Add solution URL here](https://github.com/nonoza/frontendmentor/tree/main/clipboard-landing-page-master)](https://github.com/nonoza/frontendmentor/tree/main/clipboard-landing-page-master)
-- Live Site URL: [[Add live site URL here](https://nonoza.github.io/frontendmentor/clipboard-landing-page-master/)](https://nonoza.github.io/frontendmentor/clipboard-landing-page-master/)
+- Solution URL: [Add solution URL here](https://github.com/nonoza/frontendmentor/tree/main/clipboard-landing-page-master)](https://github.com/nonoza/frontendmentor/tree/main/clipboard-landing-page-master)
+- Live Site URL: [Add live site URL here](https://nonoza.github.io/frontendmentor/clipboard-landing-page-master/)](https://nonoza.github.io/frontendmentor/clipboard-landing-page-master/)
 
 ## My process
 - Built with HTML5 for body structure
