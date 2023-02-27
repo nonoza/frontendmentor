@@ -24,7 +24,7 @@ This is a solution to the [Clipboard landing page challenge on Frontend Mentor](
 
 ### Screenshot
 
-![](.images/desktop-sce.png)
+![](.images/mobile-sce.png)
 ![](.images/mobile-sce.png)
 
 
