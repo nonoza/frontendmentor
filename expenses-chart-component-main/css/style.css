@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+:root {
+    --soft-red: hsl(10, 79%, 65%);
+    --cyan: hsl(186, 34%, 60%);
+    --dark-brown: hsl(25, 47%, 15%);
+    --medium-brown: hsl(28, 10%, 53%);
+    --cream: hsl(27, 66%, 92%);
+    --very-place-orange:hsl(33, 100%, 98%);
+    --font-size:18px;
+    --font-family: 'DM Sans', sans-serif;
+}
+h1 , h2 ,h3 ,h4 ,h5 ,h6 {
+    margin: 0;
+}
+body {
+    background: var(--cream);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: var(--font-family);
+}
+section.chat-component {
+    width: 350px;
+}
+article.balance-section {
+ 
+    
+    background: var(--soft-red);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-radius: 9px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+h1 {
+    font-size: 12px;
+    font-weight: 400;
+}
+span.balance{
+    font-size: 18px;
+    font-weight: 700;
+}
+article.spending-section {
+    background: var(--very-place-orange);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px --very-place-orange;
+    margin-bottom: 20px;
+}
+.chat-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.mon-chat {
+    width: 35px;
+    background: var(--soft-red);
+    height: 35px;
+    border-radius: 5px;
+}
+.tue-chat {
+    width: 35px;
+    background: var(--soft-red);
+    height: 65px;
+    border-radius: 5px;
+}
+.wed-chat {
+    width: 35px;
+    background: var(--cyan);
+    height: 95px;
+    border-radius: 5px;
+}
+.thu-chat {
+    width: 35px;
+    background: var(--soft-red);
+    height: 55px;
+    border-radius: 5px;
+}
+.fri-chat {
+    width: 35px;
+    background: var(--soft-red);
+    height: 45px;
+    border-radius: 5px;
+}
+.sat-chat {
+    width: 35px;
+    background: var(--soft-red);
+    height: 85px;
+    border-radius: 5px;
+}
+.sun-chat {
+    width: 35px;
+    background: var(--soft-red);
+    height: 45px;
+    border-radius: 5px;
+}
+.total {
+    display: flex;
+    justify-content: space-between;
+}
+h2 {
+    margin-bottom: 59px;
+}
+#chat-click{
+    cursor: pointer;
+}
+.amount{
+    display: none;
+}
+@media (min-width: 1000px) {
+    section.chat-component {
+        width: 380px;
+    }
+  }
