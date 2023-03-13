@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](.assets/images/desktop.PNG)
-![](.assets/images/mobile.PNG)
+![](.assets/images/desktop.png)
+![](.assets/images/mobile.png)
 
 
 
