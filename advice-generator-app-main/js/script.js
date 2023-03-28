@@ -18,7 +18,8 @@ getadvicebtn.addEventListener("click",getAdvicegenerator);
 //Function to get the advice and id from an API using JSON and Get method.
 
  function getAdvicegenerator(){
-    setTimeout(()=> { 
+     window.addEventListener("load",()=> {
+        setTimeout(()=> { 
     $ .ajax ({
         url :"https://api.adviceslip.com/advice?method=getAdvice",
         method : "GET",
@@ -38,6 +39,8 @@ getadvicebtn.addEventListener("click",getAdvicegenerator);
         }
     }, 1000);
     });
+     });
+ 
     
 }
 
