@@ -23,8 +23,8 @@ This is a solution to the [Huddle landing page with single introductory section 
 
 ### Screenshot
 
-![](.images/desktop.PNG)
-![](.images/mobile.PNG)
+![](./images/desktop.PNG)
+![](./images/mobile.PNG)
 
 
 
