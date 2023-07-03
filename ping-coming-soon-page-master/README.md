@@ -32,8 +32,6 @@ Users should be able to:
 ### Screenshot
 Dekstop
 ![](./images/dsktop.PNG)
-Active
-![](./images/active.PNG)
 Mobile
 ![](./images/mobile.PNG)
 
