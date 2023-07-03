@@ -19,7 +19,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 ### Desktop
-![Design preview for the QR code component coding challenge](./images/desktop.PNG)
+![Design preview for the QR code component coding challenge](./images/deskop.PNG)
 ### Mobile
 ![Design preview for the QR code component coding challenge](./images/mobile.PNG)
 
