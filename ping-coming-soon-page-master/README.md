@@ -40,8 +40,8 @@ Mobile
 
 ### Links
 
-- Solution URL: [https://github.com/nonoza/ping-coming-soon-page-master](https://github.com/nonoza/ping-coming-soon-page-master)
-- Live Site URL: [https://nonoza.github.io/ping-coming-soon-page-master/](https://nonoza.github.io/ping-coming-soon-page-master/)
+- Solution URL: [https://github.com/nonoza/frontendmentor/tree/main/ping-coming-soon-page-master](https://github.com/nonoza/frontendmentor/tree/main/ping-coming-soon-page-master)
+- Live Site URL: [https://nonoza.github.io/ping-coming-soon-page-master/]
 
 ## My process
 - I started with HTML5 to build the structure of the form.
