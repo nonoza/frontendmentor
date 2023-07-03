@@ -31,11 +31,11 @@ Users should be able to:
 
 ### Screenshot
 Form
-![](./images/form.PNG)
+![](./images/desktop.PNG)
 Active
 ![](./images/active.PNG)
 Error
-![](./images/error.PNG)
+![](./images/mobile.PNG)
 
 
 
