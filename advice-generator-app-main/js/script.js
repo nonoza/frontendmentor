@@ -13,7 +13,7 @@ window.addEventListener('load', () =>{
 
 //When the button is clicked the event get the advice and id from the function
 
-getadvicebtn.addEventListener("click",getAdvicegenerator);
+getadvicebtn.addEventListener("click",getAdvicegenerator());
 
 //Function to get the advice and id from an API using JSON and Get method.
 
