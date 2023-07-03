@@ -30,8 +30,8 @@ This is a solution to the [Huddle landing page with single introductory section 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/nonoza/frontendmentor/tree/main/huddle-landing-page-with-single-introductory-section-master)
-- Live Site URL: [Add live site URL here](https://nonoza.github.io/frontendmentor/huddle-landing-page-with-single-introductory-section-master/)
+- Solution URL: [Github Repo](https://github.com/nonoza/frontendmentor/tree/main/huddle-landing-page-with-single-introductory-section-master)
+- Live Site URL: [Live](https://nonoza.github.io/frontendmentor/huddle-landing-page-with-single-introductory-section-master/)
 
 ## My process
 
