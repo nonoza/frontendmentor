@@ -39,6 +39,7 @@ input#email {
     height: 60px;
     border-radius: 30px;
     border: 1px solid hsl(0, 0%, 59%);
+    outline:none;
 }
 ::placeholder{
     padding: 20px;
