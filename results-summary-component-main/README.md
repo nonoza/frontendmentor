@@ -38,7 +38,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Repo Link]([https://your-solution-url.com](https://nonoza.github.io/frontendmentor/results-summary-component-main/))
+- Solution URL: [Repo Link]([[https://your-solution-url.com](https://github.com/nonoza/frontendmentor/tree/main/results-summary-component-main)]
 - Live Site URL: [[Demo](https://nonoza.github.io/frontendmentor/results-summary-component-main/)]
 
 ## My process
