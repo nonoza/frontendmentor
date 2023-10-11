@@ -39,7 +39,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here]([https://your-solution-url.com](https://nonoza.github.io/frontendmentor/results-summary-component-main/))
-- Live Site URL: [[Add live site URL here](https://nonoza.github.io/frontendmentor/results-summary-component-main/)]([https://your-live-site-url.com](https://nonoza.github.io/frontendmentor/results-summary-component-main/))
+- Live Site URL: [[Demo](https://nonoza.github.io/frontendmentor/results-summary-component-main/)]([https://nonoza.github.io/frontendmentor/results-summary-component-main/](https://nonoza.github.io/frontendmentor/results-summary-component-main/))
 
 ## My process
 
