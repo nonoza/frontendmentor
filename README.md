@@ -6,6 +6,12 @@ This repository contains [Frontend Mentor](https://www.frontendmentor.io/challen
 
 GitHub landing page: [https://github.com/nonoza/frontendmentor](https://github.com/nonoza/frontendmentor)
 
+Technology Used:
+- HTML
+- Vanilla CSS
+- Vanilla Javascript
+- Bootstrap
+
 ## Projects
 
 | No. | Project name and link                                                                             | Repo |
