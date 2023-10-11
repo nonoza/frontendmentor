@@ -16,9 +16,7 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
-## Overview
 
 ### The challenge
 
@@ -38,10 +36,10 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [[Repo](https://nonoza.github.io/frontendmentor/results-summary-component-main/)]
+- Solution URL: [[Repo](https://github.com/nonoza/frontendmentor/tree/main/results-summary-component-main)]
 - Live Site URL: [[Demo](https://nonoza.github.io/frontendmentor/results-summary-component-main/)]
 
-## My process
+
 
 ### Built with
 
