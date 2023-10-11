@@ -11,6 +11,7 @@ Technology Used:
 - Vanilla CSS
 - Vanilla Javascript
 - Bootstrap
+- Tailwind CSS
 
 ## Projects
 
