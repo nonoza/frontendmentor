@@ -35,7 +35,7 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - CSS
-
+- Vanilla Javascript
 
 ## Author
 
