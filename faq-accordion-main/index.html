@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="./dist/output.css" rel="stylesheet">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+ 
+  
+  <title>Frontend Mentor | FAQ accordion</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body class="bg-faq-grayish-blue font-faq-font-family relative text-faq-body">
+  <div class="bg-[url('/assets/images/background-pattern-mobile.svg')]  bg-no-repeat lg:bg-[url('/assets/images/background-pattern-desktop.svg')] h-[318px] bg-center bg-cover  ">
+  </div>
+  <div class="bg-faq-light-pink absolute  bottom-0 left-0 right-0 top-[306px] max-w-[329px] h-max m-auto p-6 rounded-md lg:max-w-[601px]  ">
+    <div class="flex gap-4  items-center ">
+      <img src="assets/images/icon-star.svg" alt="star" class="w-[30px]"/>
+      <h1 class=" font-faq-font-family font-bold text-faq-heading">FAQs</h1>
+    </div>
+  
+    <button class="text-faq-dark-purple font-bold text-left pl-2 pb-5 pt-5 text-faq-body cursor-pointer flex justify-between w-full active:bg-faq-light-pink  accordion hover:text-faq-grayish-blue">
+      What is Frontend Mentor, and how will it help me?
+      <svg xmlns="http://www.w3.org/2000/svg" width="30" height="31" fill="none" class="block plus" viewBox="0 0 30 31">
+        <path fill="#AD28EB" d="M15 3.313A12.187 12.187 0 1 0 27.188 15.5 12.203 12.203 0 0 0 15 3.312Zm4.688 13.124h-3.75v3.75a.938.938 0 0 1-1.876 0v-3.75h-3.75a.938.938 0 0 1 0-1.875h3.75v-3.75a.938.938 0 0 1 1.876 0v3.75h3.75a.938.938 0 0 1 0 1.876Z"/>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="30" height="31" fill="none" class="hidden minus" viewBox="0 0 30 31">
+        <path fill="#301534" d="M15 3.313A12.187 12.187 0 1 0 27.188 15.5 12.2 12.2 0 0 0 15 3.312Zm4.688 13.124h-9.375a.938.938 0 0 1 0-1.875h9.374a.938.938 0 0 1 0 1.876Z"/>
+      </svg>
+    </button>
+    <div class="panel hidden">
+      <p class=" overflow-hidden bg-faq-light-pink pl-4 pr-4 pb-4 pt-0  text-faq-grayish-blue"> Frontend Mentor offers realistic coding challenges to help developers improve their 
+        frontend coding skills with projects in HTML, CSS, and JavaScript. It's suitable for 
+        all levels and ideal for portfolio building.</p>
+    </div>
+    <hr class="bg-faq-grayish-blue">
+    <button class="text-faq-dark-purple font-bold text-left pl-2 pb-5 pt-5 active:bg-faq-light-pink flex justify-between w-full accordion hover:text-faq-grayish-blue">Is Frontend Mentor free?
+      <svg xmlns="http://www.w3.org/2000/svg" width="30" height="31" fill="none" class="block plus"  viewBox="0 0 30 31"><path fill="#AD28EB" d="M15 3.313A12.187 12.187 0 1 0 27.188 15.5 12.203 12.203 0 0 0 15 3.312Zm4.688 13.124h-3.75v3.75a.938.938 0 0 1-1.876 0v-3.75h-3.75a.938.938 0 0 1 0-1.875h3.75v-3.75a.938.938 0 0 1 1.876 0v3.75h3.75a.938.938 0 0 1 0 1.876Z"/></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="30" height="31" fill="none" class="hidden minus"  viewBox="0 0 30 31"><path fill="#301534" d="M15 3.313A12.187 12.187 0 1 0 27.188 15.5 12.2 12.2 0 0 0 15 3.312Zm4.688 13.124h-9.375a.938.938 0 0 1 0-1.875h9.374a.938.938 0 0 1 0 1.876Z"/></svg>
+    </button>
+    <div class="panel hidden">
+      <p class=" overflow-hidden bg-faq-light-pink p-4  text-faq-grayish-blue" >Yes, Frontend Mentor offers both free and premium coding challenges, with the free 
+        option providing access to a range of projects suitable for all skill levels.</p>
+    </div>
+    <hr class="bg-faq-grayish-blue">
+    <button class="text-faq-dark-purple font-bold text-left pl-2 pb-5 pt-5 active:bg-faq-light-pink flex justify-between w-full accordion hover:text-faq-grayish-blue" >Can I use Frontend Mentor projects in my portfolio?
+      <svg xmlns="http://www.w3.org/2000/svg" width="30" height="31" fill="none" class="block plus"  viewBox="0 0 30 31"><path fill="#AD28EB" d="M15 3.313A12.187 12.187 0 1 0 27.188 15.5 12.203 12.203 0 0 0 15 3.312Zm4.688 13.124h-3.75v3.75a.938.938 0 0 1-1.876 0v-3.75h-3.75a.938.938 0 0 1 0-1.875h3.75v-3.75a.938.938 0 0 1 1.876 0v3.75h3.75a.938.938 0 0 1 0 1.876Z"/></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="30" height="31" fill="none" class="hidden minus" viewBox="0 0 30 31"><path fill="#301534" d="M15 3.313A12.187 12.187 0 1 0 27.188 15.5 12.2 12.2 0 0 0 15 3.312Zm4.688 13.124h-9.375a.938.938 0 0 1 0-1.875h9.374a.938.938 0 0 1 0 1.876Z"/></svg>
+    </button>
+    <div class="panel hidden">
+      <p class=" overflow-hidden bg-faq-light-pink p-4  text-faq-grayish-blue " >Yes, you can use projects completed on Frontend Mentor in your portfolio. It's an excellent
+        way to showcase your skills to potential employers!</p>
+    </div>
+    <hr class="bg-faq-grayish-blue">
+    <button class="text-faq-dark-purple font-bold text-left pl-2 pb-5 pt-5 active:bg-faq-light-pink flex justify-between w-full accordion hover:text-faq-grayish-blue">How can I get help if I'm stuck on a Frontend Mentor challenge?
+      <svg xmlns="http://www.w3.org/2000/svg" width="30" height="31" fill="none" class="block plus"  viewBox="0 0 30 31"><path fill="#AD28EB" d="M15 3.313A12.187 12.187 0 1 0 27.188 15.5 12.203 12.203 0 0 0 15 3.312Zm4.688 13.124h-3.75v3.75a.938.938 0 0 1-1.876 0v-3.75h-3.75a.938.938 0 0 1 0-1.875h3.75v-3.75a.938.938 0 0 1 1.876 0v3.75h3.75a.938.938 0 0 1 0 1.876Z"/></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="30" height="31" fill="none" class="hidden minus"  viewBox="0 0 30 31"><path fill="#301534" d="M15 3.313A12.187 12.187 0 1 0 27.188 15.5 12.2 12.2 0 0 0 15 3.312Zm4.688 13.124h-9.375a.938.938 0 0 1 0-1.875h9.374a.938.938 0 0 1 0 1.876Z"/></svg>
+    </button>
+    <div class="panel hidden">
+      <p class=" overflow-hidden bg-faq-light-pink p-4 text-faq-grayish-blue ">The best place to get help is inside Frontend Mentor's Discord community. There's a help 
+        channel where you can ask questions and seek support from other community members.</p>
+    </div>
+    <hr class="bg-faq-grayish-blue mb-5">
+  </div>
+
+
+
+  
+
+ 
+
+ 
+
+  
+
+  
+
+
+
+  
+
+
+  <script src="js/script.js"></script>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
