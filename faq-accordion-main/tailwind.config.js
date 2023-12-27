@@ -20,8 +20,8 @@ module.exports = {
       "faq-font-family" : ['Work Sans', 'sans-serif']
     },
     backgroundImage: {
-      "desktop": "url('./assets/images/background-pattern-desktop.svg')",
-      "mobile": "url('./assets/images/background-pattern-mobile.svg')"
+      "desktop": "url('/assets/images/background-pattern-desktop.svg')",
+      "mobile": "url('/assets/images/background-pattern-mobile.svg')"
     }
    }
 }
