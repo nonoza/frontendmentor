@@ -51,7 +51,7 @@
 @media only screen and (min-width: 1024px){
 .bg-pattern-desktop {
   /* Add styles for desktop background if needed */
-  background-image: url('assets/images/background-pattern-desktop');
+  background-image: url('assets/images/background-pattern-desktop.svg');
 }
  
 }
