@@ -40,6 +40,17 @@
   }
  
 }
+.bg-pattern-mobile {
+  background-image: url('./faq-accordion-main/assets/images/background-pattern-mobile.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 318px;
+}
+.bg-pattern-desktop {
+  /* Add styles for desktop background if needed */
+  background-image: url('./faq-accordion-main/assets/images/background-pattern-desktop');
+}
 
 html {
   line-height: 1.5;
