@@ -24,7 +24,7 @@
 ::after {
   --tw-content: '';
 }
-@media only screen and (min-width: 1024px) {
+@media (min-width: 1024px) {
   .desktop-width {
     width:360px;
   }
