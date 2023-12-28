@@ -27,6 +27,9 @@
  .desktop-width {
     width:24rem;
   }
+.border-box {
+  border-radius: 1rem/* 16px */;
+}
 @media (max-width: 640px) {
   .desktop-width {
     width:20.313rem;
