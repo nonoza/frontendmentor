@@ -28,12 +28,15 @@
     width:24rem;
   }
 .border-box {
-  border-radius: 1rem/* 16px */;
+  border-radius: 1rem!important;
 }
 @media (max-width: 640px) {
   .desktop-width {
     width:20.313rem;
   }
+  .border-box {
+  border-radius: 1rem!important;
+}
 }
 footer {
   margin-top:36px;
