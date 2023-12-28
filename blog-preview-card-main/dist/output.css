@@ -29,8 +29,11 @@
   }
 @media (max-width: 640px) {
   .desktop-width {
-    width:20.313x;
+    width:20.313rem;
   }
+}
+footer {
+  margin-top:36px;
 }
 /*
 1. Use a consistent sensible line-height in all browsers.
