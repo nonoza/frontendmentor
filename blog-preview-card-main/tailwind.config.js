@@ -15,7 +15,7 @@ module.exports = {
       "blog-black" : "hsl(0, 0%, 7%)"
     },
     fontSize: {
-      "blog-body" : "14px",
+      "blog-body" : "16px",
       "blog-heading" : "23px",
     
     },
