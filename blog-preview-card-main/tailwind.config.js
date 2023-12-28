@@ -23,7 +23,7 @@ module.exports = {
       "blog-font-family" : ['Figtree', 'sans-serif']
     },
     boxShadow: {
-      "blog-box-shadow": "10px 9px hsl(0, 0%, 7%);"
+      "blog-box-shadow": "10px 0 hsl(0, 0%, 7%);"
     }
    },
   plugins: [],
