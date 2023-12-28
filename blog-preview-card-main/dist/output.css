@@ -25,11 +25,11 @@
   --tw-content: '';
 }
  .desktop-width {
-    width:360px;
+    width:24rem;
   }
 @media (max-width: 640px) {
   .desktop-width {
-    width:325px;
+    width:20.313x;
   }
 }
 /*
