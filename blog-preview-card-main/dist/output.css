@@ -24,6 +24,9 @@
 ::after {
   --tw-content: '';
 }
+ .desktop-width {
+    width:325px;
+  }
 @media (min-width: 1024px) {
   .desktop-width {
     width:360px;
