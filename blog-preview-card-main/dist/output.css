@@ -24,7 +24,11 @@
 ::after {
   --tw-content: '';
 }
-
+@media only screen and (min-width: 1024px) {
+  .w-\[360px\] {
+    width:360px;
+  }
+}
 /*
 1. Use a consistent sensible line-height in all browsers.
 2. Prevent adjustments of font size after orientation changes in iOS.
