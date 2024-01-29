@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [[Add solution URL here](https://www.frontendmentor.io/solutions/social-links-profile-solution-using-tailwind-XMe1OpNWGD)]([https://your-solution-url.com](https://www.frontendmentor.io/solutions/social-links-profile-solution-using-tailwind-XMe1OpNWGD))
+- Live Site URL: [[Add live site URL here](https://nonoza.github.io/frontendmentor/social-links-profile-main/)]([https://your-live-site-url.com](https://nonoza.github.io/frontendmentor/social-links-profile-main/))
 
 ## My process
 
@@ -48,7 +48,7 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://prettynkunene.co.za)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/nonoza)
+- Website - [Pretty Kunene](https://prettynkunene.co.za)
+- Frontend Mentor - [@nonoza](https://www.frontendmentor.io/profile/nonoza)
 
 
