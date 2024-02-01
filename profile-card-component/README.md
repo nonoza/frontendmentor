@@ -34,12 +34,15 @@ Mobile
 - Live Site URL: [https://nonoza.github.io/nonoza-profile-card-component-main/](https://nonoza.github.io/nonoza-profile-card-component-main/)
 
 ## My process
-- Built a structure with HTML elements.
-- Styled using CSS
+- Created a basic structure using HTML elements.
+- Installed SASS for better styling options.
+- Made a study guide sheet.
+- Developed a stylesheet for styling.
+- Connected to a style guide.
+- Styled the component.
 ### Built with
 - Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
+- SASS/SCSS
 
 
 ### What I learned
