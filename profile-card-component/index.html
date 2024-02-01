@@ -2,41 +2,43 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="css/styles.css"/>
   <title>Frontend Mentor | Profile card component</title>
 </head>
-<body >
+<body>
   <main>
-    <div class="bg">
-      <div class="box-component">
-         <div class="background-image">
-         <img src="images/bg-pattern-card.svg" alt="pattern" width="100%"/>
-         </div>
-         <div class="avatar">
-           <img src="images/image-victor.jpg" alt="avatar" />
-           <div class="avatar-name">
-            <h4>Victor Crest <span>26 </span> </h4>
-            <p>London</p>
-          </div>
-         </div>
-         <div class="line"></div>
-         <div class="activities">
-           <div class="followers">
-             <p><strong>80K</strong><span>Followers</span></p>
-           </div>
-           <div class="likes">
-            <p><strong>803K</strong><span>Likes</span></p>
-          </div>
-          <div class="photos">
-            <p><strong>1.4K</strong><span>Photos</span></p>
-          </div>
-         </div>
-      </div>
-    </div>
+    <section class="box-component">
+      <!-- Section for background image -->
+      <section class="background-image">
+        <img src="images/bg-pattern-card.svg" alt="Background Pattern" width="100%" />
+      </section>
+      <!-- Section for the avatar -->
+      <section class="avatar">
+        <img src="images/image-victor.jpg" alt="Profile Avatar" />
+        <div class="avatar-name">
+          <h4>Victor Crest <span>26</span></h4>
+          <p>London</p>
+        </div>
+      </section>
+      <!-- End of avatar section -->
+      <div class="line"></div>
+      <!-- Section for activities -->
+      <section class="activities">
+        <div class="followers">
+          <p><strong>80K</strong><span>Followers</span></p>
+        </div>
+        <div class="likes">
+          <p><strong>803K</strong><span>Likes</span></p>
+        </div>
+        <div class="photos">
+          <p><strong>1.4K</strong><span>Photos</span></p>
+        </div>
+      </section>
+      <!-- End of activities section -->
+    </section>
   </main>
-
 </body>
 </html>
