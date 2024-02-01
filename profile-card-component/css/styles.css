@@ -1,0 +1,118 @@
+/* This is the stylesheet for the style guide for this project*/
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+  background: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 18px;
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(185, 75%, 39%);
+  background-repeat: no-repeat, no-repeat;
+  background-position: bottom 50vh right 50vw, top 50vh left 50vw;
+}
+body .box-component {
+  width: 326px;
+  height: 374px;
+  background-color: #ffffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  box-shadow: hsl(185, 75%, 39%) 6px 27px 11px;
+}
+@media (min-width: 1440px) {
+  body .box-component {
+    width: 350px;
+  }
+}
+body .box-component .background-image img {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+body .box-component .avatar {
+  position: absolute;
+  top: 24%;
+  left: 30%;
+  text-align: center;
+}
+body .box-component .avatar img {
+  border-radius: 52%;
+  border: 6px solid #fff;
+}
+body .box-component .avatar h4 {
+  font-weight: 700;
+  color: hsl(229, 23%, 23%);
+  margin: 0 0 7px;
+}
+body .box-component .avatar p {
+  text-align: center;
+  color: hsl(0, 0%, 59%);
+  margin: 0;
+}
+body .box-component .avatar span {
+  font-weight: lighter;
+  color: hsl(0, 0%, 59%);
+}
+body .box-component .avatar .avatar-name p {
+  text-align: center;
+  color: hsl(0, 0%, 59%);
+  font-size: 14px;
+}
+body .box-component .avatar .avatar-name span {
+  font-weight: lighter;
+  color: hsl(0, 0%, 59%);
+}
+body .box-component .line {
+  border-bottom: 0.5px solid hsl(227, 10%, 46%);
+  padding-top: 126px;
+}
+body .box-component .activities {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 20px 0;
+  text-align: center;
+}
+body .box-component .activities .followers p {
+  color: hsl(229, 23%, 23%);
+  display: inline-grid;
+}
+body .box-component .activities .followers p:hover {
+  color: hsl(185, 75%, 39%);
+}
+body .box-component .activities .followers p span {
+  font-size: 10px;
+  color: hsl(227, 10%, 46%);
+  letter-spacing: 1.5px;
+}
+body .box-component .activities .likes p {
+  color: hsl(229, 23%, 23%);
+  display: inline-grid;
+}
+body .box-component .activities .likes p:hover {
+  color: hsl(185, 75%, 39%);
+}
+body .box-component .activities .likes p span {
+  font-size: 10px;
+  color: hsl(227, 10%, 46%);
+  letter-spacing: 1.5px;
+}
+body .box-component .activities .photos p {
+  color: hsl(229, 23%, 23%);
+  display: inline-grid;
+}
+body .box-component .activities .photos p:hover {
+  color: hsl(185, 75%, 39%);
+}
+body .box-component .activities .photos p span {
+  font-size: 10px;
+  color: hsl(227, 10%, 46%);
+  letter-spacing: 1.5px;
+}/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,145 @@
+@import "variables";
+
+body {
+  padding: 0;
+  margin: 0;
+  font-size: $body-font;
+  background: url(../images/bg-pattern-top.svg),
+    url(../images/bg-pattern-bottom.svg);
+  font-family: $font-fam;
+  font-size: 18px;
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: $dark-cyan;
+  background-repeat: no-repeat, no-repeat;
+  background-position: bottom 50vh right 50vw, top 50vh left 50vw;
+ 
+
+  .box-component {
+    width: 326px;
+    height: 374px;
+
+    @media (min-width: $desktop-width) {
+      width: 350px;
+    }
+    background-color: $white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    box-shadow: hsl(185, 75%, 39%) 6px 27px 11px;
+
+    .background-image {
+      img {
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+      }
+    }
+    .avatar {
+      position: absolute;
+      top: 24%;
+      left: 30%;
+      text-align: center;
+
+      img {
+        border-radius: 52%;
+        border: 6px solid #fff;
+      }
+
+      h4 {
+        font-weight: 700;
+        color: $very-dark-blue;
+        margin: 0 0 7px;
+      }
+
+      p {
+        text-align: center;
+        color: hsl(0, 0%, 59%);
+        margin: 0;
+      }
+
+      span {
+        font-weight: lighter;
+        color: hsl(0, 0%, 59%);
+      }
+      .avatar-name {
+        p {
+          text-align: center;
+          color: $dark-gray;
+          font-size: 14px;
+        }
+
+        span {
+          font-weight: lighter;
+          color: hsl(0, 0%, 59%);
+        }
+      }
+    }
+
+    .line {
+      border-bottom: 0.5px solid $dark-grayish-blue;
+      padding-top: 126px;
+    }
+
+    .activities {
+      display: flex;
+      justify-content: space-around;
+      padding: 15px 20px 0;
+      text-align: center;
+
+      .followers {
+        p {
+          color: $very-dark-blue;
+          display: inline-grid;
+
+        &:hover {
+            color: $dark-cyan;
+        }
+
+          span {
+            font-size: 10px;
+            color: $dark-grayish-blue;
+            letter-spacing: 1.5px;
+          }
+        }
+      }
+      .likes {
+        p {
+          color: $very-dark-blue;
+          display: inline-grid;
+
+        &:hover {
+            color: $dark-cyan;
+        }
+
+          span {
+            font-size: 10px;
+            color: $dark-grayish-blue;
+            letter-spacing: 1.5px;
+          }
+        }
+      }
+      .photos {
+        p {
+          color: $very-dark-blue;
+          display: inline-grid;
+
+        &:hover {
+            color: $dark-cyan;
+        }
+
+          span {
+            font-size: 10px;
+            color: $dark-grayish-blue;
+            letter-spacing: 1.5px;
+          }
+        }
+      }
+    }
+  }
+}
