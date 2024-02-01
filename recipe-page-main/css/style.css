@@ -1,0 +1,123 @@
+/* Stylesheet that consist styles for the projects*/
+/* This scss page consist of all the style guide for this project, including the fonts, colors and layouts */
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: hsl(30, 54%, 90%);
+  font-family: "Outfit", sans-serif;
+  color: hsl(30, 10%, 34%);
+}
+@media (min-width: 768px) {
+  body {
+    padding: 100px;
+  }
+}
+body .recipe-container {
+  background-color: hsl(0, 0%, 100%);
+}
+@media (min-width: 768px) {
+  body .recipe-container {
+    max-width: 611px;
+    border-radius: 30px;
+  }
+}
+body .recipe-container .image {
+  max-width: 410px;
+  margin-bottom: 30px;
+}
+@media (min-width: 768px) {
+  body .recipe-container .image {
+    max-width: 537px;
+    border-radius: 50px 50px 0 0;
+    padding: 37px 38px 0;
+  }
+}
+body .recipe-container .recipe-inner-container {
+  padding: 8px 38px;
+}
+body .recipe-container .recipe-inner-container header h1 {
+  margin: 0 0 23px 0;
+  font-family: "Young Serif", serif;
+  font-size: 38px;
+  line-height: 38px;
+}
+body .recipe-container .recipe-inner-container header p {
+  margin: 0;
+  color: hsl(30, 10%, 34%);
+  line-height: 23px;
+}
+body .recipe-container .recipe-inner-container .preparation-container {
+  background-color: hsl(330, 100%, 98%);
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 15px;
+}
+body .recipe-container .recipe-inner-container .preparation-container h2 {
+  margin-top: 0;
+  font-size: 20px;
+  font-weight: 600;
+  color: hsl(332, 51%, 32%);
+}
+body .recipe-container .recipe-inner-container .preparation-container ul {
+  padding-inline-start: 20px;
+}
+body .recipe-container .recipe-inner-container .preparation-container ul li {
+  padding: 0 25px;
+  margin-bottom: 10px;
+}
+body .recipe-container .recipe-inner-container .ingredient-container {
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+body .recipe-container .recipe-inner-container .ingredient-container h2 {
+  font-family: "Young Serif", serif;
+  color: hsl(332, 51%, 32%);
+}
+body .recipe-container .recipe-inner-container .ingredient-container ul {
+  padding-inline-start: 20px;
+}
+body .recipe-container .recipe-inner-container .ingredient-container ul li {
+  padding: 0 25px;
+  margin-bottom: 10px;
+}
+body .recipe-container .recipe-inner-container .instruction-container {
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+body .recipe-container .recipe-inner-container .instruction-container h2 {
+  font-family: "Young Serif", serif;
+  color: hsl(332, 51%, 32%);
+}
+body .recipe-container .recipe-inner-container .instruction-container ol {
+  padding-inline-start: 20px;
+}
+body .recipe-container .recipe-inner-container .instruction-container ol li {
+  padding: 0 25px;
+  margin-bottom: 10px;
+  line-height: 26px;
+}
+body .recipe-container .recipe-inner-container .nutrition-container h2 {
+  font-family: "Young Serif", serif;
+  color: hsl(332, 51%, 32%);
+}
+body .recipe-container .recipe-inner-container .nutrition-container p {
+  padding-right: 28px;
+}
+body .recipe-container .recipe-inner-container .nutrition-container table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 40px;
+}
+body .recipe-container .recipe-inner-container .nutrition-container tr {
+  border-bottom: 1px solid #ccc;
+  font-weight: 400;
+}
+body .recipe-container .recipe-inner-container .nutrition-container td {
+  padding: 10px;
+  color: hsl(30, 10%, 34%);
+  font-weight: 600;
+}/*# sourceMappingURL=style.css.map */
