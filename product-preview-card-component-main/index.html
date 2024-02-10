@@ -34,7 +34,13 @@
          </div>
      </div>
    </div>
-    <script src="js/script.js"></script>
+    <script>
+       let btn = document.querySelectorAll('#cart');
+      btn[0].addEventListener('click',()=>{
+    btn[0].innerHTML = "<img src=\"images/icon-cart.svg\" alt=\"icon\" class=\"icon\"> Added to Cart";
+})
+
+    </script>
  </body> 
 </main>
 
