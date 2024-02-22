@@ -7,6 +7,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 <link href="./src/output.css" rel="stylesheet">
   
@@ -16,7 +17,7 @@
 <body class="bg-off-dark flex items-center justify-center h-screen flex-col p-8 font-sans text-body-size">
   <main>
     <!-- social profile container-->
-    <section class="bg-dark-grey rounded-md">
+    <section class="bg-dark-grey rounded-md" data-aos="flip-up">
           <!-- social profile section -->
       <section class="  flex justify-center items-center flex-col pt-2 pl-4 pr-4">
         <img src="assets/images/avatar-jessica.jpeg" alt="avatar" class="w-[91px] h-[91px] rounded-full mb-6"/>
@@ -26,13 +27,17 @@
       </section>
        <!-- social links buttons -->
       <section class="flex flex-col p-3">
-      <button class="bg-grey m-2 p-2 text-white font-bold rounded-md active:bg-green active:text-dark-grey">GitHub</button>
-      <button class="bg-grey m-2 p-2 text-white font-bold rounded-md active:bg-green active:text-dark-grey">Frontend Mentor</button>
-      <button class="bg-grey m-2 p-2 text-white font-bold rounded-md active:bg-green active:text-dark-grey">LinkedIn</button>
-      <button class="bg-grey m-2 p-2 text-white font-bold rounded-md active:bg-green active:text-dark-grey"> Twitter</button>
-      <button class="bg-grey m-2 p-2 text-white font-bold rounded-md active:bg-green active:text-dark-grey">Instagram</button>
+      <button class="bg-grey m-2 p-2 text-white font-bold rounded-md active:bg-green active:text-dark-grey hover:bg-dark-grey">GitHub</button>
+      <button class="bg-grey m-2 p-2 text-white font-bold rounded-md active:bg-green active:text-dark-grey hover:bg-dark-grey">Frontend Mentor</button>
+      <button class="bg-grey m-2 p-2 text-white font-bold rounded-md active:bg-green active:text-dark-grey hover:bg-dark-grey">LinkedIn</button>
+      <button class="bg-grey m-2 p-2 text-white font-bold rounded-md active:bg-green active:text-dark-grey hover:bg-dark-grey"> Twitter</button>
+      <button class="bg-grey m-2 p-2 text-white font-bold rounded-md active:bg-green active:text-dark-grey hover:bg-dark-grey">Instagram</button>
       </section>
     </section>
   </main>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+  AOS.init();
+</script>
 </body>
 </html>
