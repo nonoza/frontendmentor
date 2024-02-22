@@ -116,3 +116,6 @@ body .box-component .activities .photos p span {
   color: hsl(227, 10%, 46%);
   letter-spacing: 1.5px;
 }/*# sourceMappingURL=styles.css.map */
+[data-aos^=fade][data-aos^=fade].aos-animate {
+    transform: none!important;
+}
