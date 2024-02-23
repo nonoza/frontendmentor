@@ -1,0 +1,134 @@
+//import the style guide
+@import "studyguide.scss";
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 120vh;
+    background: linear-gradient($soft-violet, $soft-blue);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    flex-direction: column;
+    font-family: $brand-font;
+    font-size: $body-font;
+
+    main {
+        .faq-container {
+            background: $white;
+            width: 300px;
+            height: 540px;
+            padding: 23px;
+            display: flex;
+            flex-direction: column;
+            border-radius: 10px;
+            align-items: center;
+            justify-content: center;
+            @media screen and (min-width: $breakpoint-medium) {
+                flex-direction: row;
+                padding: 50px;
+                width: 663px;
+                height: 321px;
+             
+            }
+
+            .image-illustration {
+
+                position: relative;
+                    top: 0;
+                @media screen and (min-width: $breakpoint-medium) {
+                    top: 220px;
+                    flex-basis: 90%;
+                }
+
+                .mobile {
+                    display: block;
+                    position: relative;
+                    bottom: 55px;
+                    width: 60%;
+                    margin: auto;
+                    @media screen and (min-width: $breakpoint-medium) {
+                        display: none;
+                    }
+                }
+                .desktop {
+                    display: none;
+                    @media screen and (min-width: $breakpoint-medium) {
+                        display: block;
+                        position: relative;
+                        right: 106px;
+                        width: 119%;
+                 
+                    }
+                }
+                .shadow-mobile {
+                    position: absolute;
+                    bottom: 13px;
+                    right: 49px;
+                    width: 70%;
+
+                    @media screen and (min-width: $breakpoint-medium) {
+                      display: none;
+                    }
+                }
+                .shadow-desktiop {
+                    display: none;
+                    @media screen and (min-width: $breakpoint-medium) {
+                        display: block;
+                        position: relative;
+                        right: 106px;
+                        width: 119%;
+                        bottom: 326px;
+                    }
+                }
+            }
+
+       .faq-content {
+        flex: 80%;
+
+        .faq-heading {
+            font-size: 30px;
+            text-align: center;
+        }
+
+    .faq-section {
+
+        details {
+            border: none;
+            border-bottom: 1px solid hsl(240, 5%, 91%);
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+            width: 100%;
+            text-align: left;
+
+            summary {
+                list-style: none;
+                &::after{
+                    content: url("/images/icon-arrow-down.svg");
+                    margin-left: 10px;
+                    font-weight: bold;
+                    font-style: normal;
+                }
+
+                &::marker {
+                    display: none;
+                }
+
+                &:active {
+                    color: $soft-red;
+                }
+                &:focus {
+                    font-weight: 700;
+                }
+            }
+           
+        }
+
+    }
+       }
+
+       
+    }
+   }
+}

@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 120vh;
+  background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+  background-size: cover;
+  background-repeat: no-repeat;
+  flex-direction: column;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 12px;
+}
+body main .faq-container {
+  background: #ffffff;
+  width: 300px;
+  height: 540px;
+  padding: 23px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (min-width: 1440px) {
+  body main .faq-container {
+    flex-direction: row;
+    padding: 50px;
+    width: 663px;
+    height: 321px;
+  }
+}
+body main .faq-container .image-illustration {
+  position: relative;
+  top: 0;
+}
+@media screen and (min-width: 1440px) {
+  body main .faq-container .image-illustration {
+    top: 220px;
+    flex-basis: 90%;
+  }
+}
+body main .faq-container .image-illustration .mobile {
+  display: block;
+  position: relative;
+  bottom: 55px;
+  width: 60%;
+  margin: auto;
+}
+@media screen and (min-width: 1440px) {
+  body main .faq-container .image-illustration .mobile {
+    display: none;
+  }
+}
+body main .faq-container .image-illustration .desktop {
+  display: none;
+}
+@media screen and (min-width: 1440px) {
+  body main .faq-container .image-illustration .desktop {
+    display: block;
+    position: relative;
+    right: 106px;
+    width: 119%;
+  }
+}
+body main .faq-container .image-illustration .shadow-mobile {
+  position: absolute;
+  bottom: 13px;
+  right: 49px;
+  width: 70%;
+}
+@media screen and (min-width: 1440px) {
+  body main .faq-container .image-illustration .shadow-mobile {
+    display: none;
+  }
+}
+body main .faq-container .image-illustration .shadow-desktiop {
+  display: none;
+}
+@media screen and (min-width: 1440px) {
+  body main .faq-container .image-illustration .shadow-desktiop {
+    display: block;
+    position: relative;
+    right: 106px;
+    width: 119%;
+    bottom: 326px;
+  }
+}
+body main .faq-container .faq-content {
+  flex: 80%;
+}
+body main .faq-container .faq-content .faq-heading {
+  font-size: 30px;
+  text-align: center;
+}
+body main .faq-container .faq-content .faq-section details {
+  border: none;
+  border-bottom: 1px solid hsl(240, 5%, 91%);
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  text-align: left;
+}
+body main .faq-container .faq-content .faq-section details summary {
+  list-style: none;
+}
+body main .faq-container .faq-content .faq-section details summary::after {
+  content: url("/images/icon-arrow-down.svg");
+  margin-left: 10px;
+  font-weight: bold;
+  font-style: normal;
+}
+body main .faq-container .faq-content .faq-section details summary::marker {
+  display: none;
+}
+body main .faq-container .faq-content .faq-section details summary:active {
+  color: hsl(14, 88%, 65%);
+}
+body main .faq-container .faq-content .faq-section details summary:focus {
+  font-weight: 700;
+}/*# sourceMappingURL=style.css.map */
