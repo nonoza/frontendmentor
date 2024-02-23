@@ -37,8 +37,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/nonoza/frontendmentor/tree/main/faq-accordion-card-main)
+- Live Site URL: [Add live site URL here](https://nonoza.github.io/frontendmentor/faq-accordion-card-main/)
 
 ## My process
 
