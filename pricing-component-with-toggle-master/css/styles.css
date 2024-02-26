@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 body {
-  background: hsl(240, 78%, 98%);
+  background-color: hsl(240, 78%, 98%);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10,13 +10,10 @@ body {
   margin: 0;
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
-  background: url("../images/bg-top.svg"), url("../images/bg-bottom.svg");
+  background-image: url(./images/bg-top.svg), url(./images/bg-bottom.svg);
   background-position: top 0 right -12rem, bottom 0 left;
   background-repeat: no-repeat, no-repeat;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  text-align: center;
+ 
 }
 body main header h1 {
   font-size: 30px;
