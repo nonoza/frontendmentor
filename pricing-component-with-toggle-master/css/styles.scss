@@ -10,7 +10,7 @@ body {
   font-family: $brand-font;
   font-size: $brand-body-font-size;
   background-color: $very-light-grayish-blue;
-    background: url(../images/bg-top.svg), url(../images/bg-bottom.svg);
+    background: url("../images/bg-top.svg"), url("../images/bg-bottom.svg");
     background-position: top 0 right -12rem, bottom 0 left;
     background-repeat: no-repeat, no-repeat;
    
