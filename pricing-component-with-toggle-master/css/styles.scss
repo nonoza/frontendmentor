@@ -1,6 +1,5 @@
 @import "styleguide.scss";
 body {
-  background-color: $very-light-grayish-blue;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10,8 +9,9 @@ body {
   margin: 0;
   font-family: $brand-font;
   font-size: $brand-body-font-size;
-   background: url("../images/bg-top.svg"), url("../images/bg-bottom.svg");
-   background-position: top 0 right -12rem, bottom 0 left;
+  background-color: $very-light-grayish-blue;
+    background-image: url(./images/bg-top.svg), url(./images/bg-bottom.svg);
+    background-position: top 0 right -12rem, bottom 0 left;
     background-repeat: no-repeat, no-repeat;
     display: flex;
     flex-direction: column;
