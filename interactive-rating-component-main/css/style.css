@@ -59,7 +59,7 @@ article p {
     align-items: center;
 
 }
-.rating-numbers p {
+p.rating-number {
     margin: 10px;
     background: var(--circles-color);
     padding: 12px;
@@ -69,10 +69,11 @@ article p {
     border-radius: 100%;
     cursor: pointer;
 }
-.rating-numbers p:hover, .rating-numbers p:active{
+p.rating-number:hover, p.rating-number:active{
       background: var(--button-color);
       color: #fff;
 }
+
     
 article button {
     text-align: center;
