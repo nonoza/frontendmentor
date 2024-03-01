@@ -69,7 +69,7 @@ article p {
     border-radius: 100%;
     cursor: pointer;
 }
-.rating-numbers p: hover{
+.rating-numbers p:hover, .rating-numbers p:active{
       background: var(--button-color);
       color: #fff;
 }
