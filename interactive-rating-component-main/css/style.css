@@ -69,10 +69,15 @@ p.rating-number {
     border-radius: 100%;
     cursor: pointer;
 }
-p.rating-number:hover, p.rating-number:active{
+p.rating-number:hover{
       background: var(--button-color);
       color: #fff;
 }
+p.rating-number:active {
+     background: var(--button-color);
+      color: #fff;
+}
+    
 
     
 article button {
