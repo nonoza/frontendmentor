@@ -78,7 +78,10 @@ p.rating-number:active {
       color: #fff;
 }
     
-
+p.rating-number:focus {
+     background: var(--button-color);
+      color: #fff;
+}
     
 article button {
     text-align: center;
