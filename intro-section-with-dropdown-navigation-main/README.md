@@ -72,7 +72,7 @@ I have learned that you can create your own command to compile sass files
 
 ## Author
 
-- Website - [Pretty Kunene](https://www.your-site.com)
-- Frontend Mentor - [@nonoza](https://www.frontendmentor.io/profile/yourusername)
+- Website - [Pretty Kunene](https://prettynkunene.co.za/)
+- Frontend Mentor - [@nonoza](https://www.frontendmentor.io/profile/nonoza)
 
 
