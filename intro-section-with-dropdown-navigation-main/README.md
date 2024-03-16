@@ -38,8 +38,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Click](https://github.com/nonoza/frontendmentor/tree/main/intro-section-with-dropdown-navigation-main)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Click Here](https://github.com/nonoza/frontendmentor/tree/main/intro-section-with-dropdown-navigation-main)
+- Live Site URL: [Click Here](https://nonoza.github.io/frontendmentor/intro-section-with-dropdown-navigation-main/)
 
 ## My process
 
