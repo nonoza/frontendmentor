@@ -1,38 +1,78 @@
-# vml-practical-assessment
+# Frontend Mentor - Intro section with dropdown navigation solution
 
-This project is one of the front end mentor project which includes dropdown nav bar.
+This is a solution to the [Intro section with dropdown navigation challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/intro-section-with-dropdown-navigation-ryaPetHE5). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-- Live Site URL: [Demo](https://nonoza.github.io/vml-assessment/)
+## Table of contents
 
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
+
+
+
+## Overview
+
+### The challenge
+
+Users should be able to:
+
+- View the relevant dropdown menus on desktop and mobile when interacting with the navigation links
+- View the optimal layout for the content depending on their device's screen size
+- See hover states for all interactive elements on the page
 
 ### Screenshot
 
-
-
-![Mobile view of solution](./images/moble-mockup.png)
-
-![Mobile view of solution](./images/mobile-mockup-2.png)
-
-![Desktop view of solution](./images/desktop-dropdown.png)
+![](./images/mobile-mockup-2.png)
+![](./images/mobile-active-dropdown.png)
+![](./images/desktop-dropdown.png)
 
 
 
-## Technologies Used
+### Links
+
+- Solution URL: [Click Here](https://github.com/nonoza/frontendmentor/tree/main/intro-section-with-dropdown-navigation-main)
+- Live Site URL: [Click Here](https://nonoza.github.io/frontendmentor/intro-section-with-dropdown-navigation-main/)
+
+## My process
+
+-- Set up npm to install bootstrap as dependence
+-- Install sass
+- created a script to compile sass
+- build hmtl 5 struture
+- style mobile first
+- style desktop
+
+### Built with
 
 - Semantic HTML5 markup
-- SCSS
+- Flexbox
+- CSS Grid
 - Mobile-first workflow
-- Bootstrap 5
-
-## Setup Instructions
-1. Clone this repo
-2. Then cd into to the clone project.
-3. Run npm install
-4. Then on your terminal run npm run compile:sass to Compile style.scss
-5. Add a space and delete and click save so that compile will start.
-
-Thank you
+- Bootstrap
 
 
+
+### What I learned
+
+I have learned that you can create your own command to compile sass files
+
+"scripts": {
+    "compile:sass": "sass --watch scss:assets/css"
+  },
+```
+
+
+## Author
+
+- Website - [Pretty Kunene](https://prettynkunene.co.za/)
+- Frontend Mentor - [@nonoza](https://www.frontendmentor.io/profile/nonoza)
 
 
