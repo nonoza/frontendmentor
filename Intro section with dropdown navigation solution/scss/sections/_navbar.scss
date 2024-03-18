@@ -1,0 +1,201 @@
+/* Stylesheet for the navbar section */
+@import "../mixin";
+@import "../typography";
+
+.header-section {
+  @include media-breakpoint-up(lg) {
+    margin: 22px 40px 0;
+  }
+
+  .logo {
+    @include media-breakpoint-up(lg) {
+      margin-right: 63px;
+    }
+  }
+
+  .mobile-icon {
+    border: none;
+  }
+
+  .overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 100%; 
+    z-index: 1;
+    height: 100vh;
+    width: 100vw;
+    background: hsla(0, 0%, 8%, 0.59);
+    opacity: 0; 
+    display: none;
+    transition: left 0.5s cubic-bezier(0.23, 1, 0.32, 1), opacity 0.5s ease;
+  
+    &.show {
+      display: block;
+      left: 0;
+      opacity: 1; 
+      animation: fadeIn 0.3s forwards;
+
+      @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+      }
+
+    }
+
+    @include media-breakpoint-up(lg) {
+      position: unset;
+      bottom: 0;
+      height: 0;
+      width: 0;
+      background: none;
+      display: contents;
+    }
+
+    .main-menu {
+      position: relative;
+      left: 133.5px;
+      z-index: 2;
+      background: white;
+      width: 100vw;
+      min-height: 100vh;
+      padding: 23px 20px 0 20px;
+      box-shadow: -1rem 0rem 3rem $almost-black;
+
+      @include media-breakpoint-up(lg) {
+        left: 0;
+        z-index: 0;
+        width: 0;
+        height: 0;
+        min-height: 0;
+        background: 0;
+        padding: 0;
+      }
+    }
+
+    .close-icon-btn {
+      display: flex;
+      justify-content: flex-end;
+      margin-right: 134px;
+      margin-bottom: 37px;
+
+      @include media-breakpoint-up(lg) {
+        display: none;
+      }
+    }
+
+    .navbar-nav {
+     .nav-item {
+      .nav-link {
+        img {
+          margin-left: 11px;
+        }
+      }
+
+      .dropdown-menu {
+        border: none;
+
+        @include media-breakpoint-up(lg) {
+          background-color: $almost-white;
+          padding: 1rem 0;
+          border-radius: 0.5rem;
+          box-shadow: 0 1rem 1rem 0 rgba(0, 0, 0, 0.2)!important;
+          border: none!important;
+        }
+        
+        &[data-bs-popper] {
+          animation: fadeIn 0.3s forwards;
+          
+          @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+          }
+        }
+
+        > li {
+          .menu-icon {
+            height: 100%;
+          }
+        }
+      }
+
+      .nav-link {
+        font-weight: 500;
+        color: $medium-gray;
+        font-size: $nav-font-size;
+
+        &:hover {
+          color: $almost-black;
+          background: transparent;
+          transition: all 350ms ease-in-out;
+        }
+
+        &:active {
+          color: $almost-black;
+          background: transparent;
+        }
+
+        @include media-breakpoint-up(lg) {
+          margin-right: 20px;
+        }
+  
+      }
+
+     }
+     
+    }
+
+    .right-section {
+      position: relative;
+      flex-direction: column;
+      left: 0;
+      width: 60%;
+
+      @include media-breakpoint-up(md) {
+        width: 80%;
+      }
+
+      @include media-breakpoint-up(lg) {
+        flex-direction: row;
+        width: 14%;
+      }
+
+      .login {
+        // Typography
+        font-weight: 500;
+        font-size: $nav-font-size;
+        color: $link-color;
+        cursor: pointer;
+
+        &:hover {
+          color: $almost-black;
+          transition: all 350ms ease-in-out;
+        }
+
+        &:active {
+          color: $almost-black;
+        }
+      }
+
+      .btn-outline {
+        @include btn-outline;
+        width: 100%;
+        font-size: $nav-font-size;
+
+        @include media-breakpoint-up(lg) {
+          width: 100%;
+        }
+
+        &:hover {
+          @include btn-background;
+          transition: all 350ms ease-in-out;
+        }
+
+        &:active {
+          @include btn-background;
+        }
+      }
+    }
+  }
+}

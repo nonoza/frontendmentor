@@ -1,0 +1,22 @@
+//importing the style guides
+@import "custom";
+
+//importing sections
+@import "../scss/sections/navbar";
+@import "../scss/sections/main.scss";
+
+//impoting typographu
+@import "./typography";
+
+body {
+  background: $almost-white;
+  font-size: $body-font-size;
+  @include media-breakpoint-up(md) { // table media quries
+    padding: 0;
+  }
+
+  @include media-breakpoint-up(lg) { // Larger screens
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+}
