@@ -1,0 +1,24 @@
+@import "custom";
+@import "../scss/typography";
+
+//Sections
+@import "./sections/navbar";
+@import "./sections/main";
+
+
+body {
+ margin: 0;
+ padding: 0;
+ font-family: $font-body!important;
+ font-size: $body-size;
+
+ @include media-breakpoint-up(md) { // table media quries
+    padding: 0;
+  }
+
+ @include media-breakpoint-up(lg) { // Larger screens
+    margin: auto;
+    max-width: 1440px;
+  }
+
+}

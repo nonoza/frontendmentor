@@ -1,0 +1,234 @@
+@import "../custom";
+
+main {
+  .intro-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    @include media-breakpoint-up(lg) {
+      // Larger screens
+      flex-direction: row;
+      width: 75%;
+      margin: auto;
+      gap: 31px;
+    }
+
+    .bright-section {
+      text-align: left;
+      @include media-breakpoint-up(md){
+       text-align: center;
+      }
+  
+      .image-web-3-desktop {
+        display: none;
+
+        @include media-breakpoint-up(lg) {
+          // Larger screens
+          display: block;
+          width: 737px;
+        }
+      }
+      .image-web-3-mobile {
+        max-width: 100%;
+
+        @include media-breakpoint-up(lg) {
+          // Larger screens
+          display: none;
+        }
+      }
+
+      .bright-content {
+        padding: 30px 20px 20px;
+        display: flex;
+        flex-direction: column;
+
+        @include media-breakpoint-up(lg) {
+          // Larger screens
+          flex-direction: row;
+          gap: 88px;
+          padding: 30px 0px 20px;
+
+        }
+
+        h1 {
+          font-size: 3rem;
+          font-weight: 700;
+          line-height: 44px;
+
+          @include media-breakpoint-up(lg) {
+            // Larger screens
+            font-size: 2.5rem;
+          }
+        }
+
+        p {
+          font-size: $body-size;
+          font-family: $font-body;
+          font-weight: lighter;
+          color: $dark-grayish-blue;
+
+          @include media-breakpoint-up(lg) {
+            // Larger screens
+            margin-right: 93px;
+          }
+        }
+
+        .read-more {
+          border: none;
+          background: $soft-red;
+          font-family: $font-heading;
+          letter-spacing: 3px;
+          padding: 15px 25px;
+          color: $off-white;
+          text-transform: uppercase;
+          width: 60%;
+
+          &:hover {
+            background: $very-dark-blue;
+            color: $off-white;
+          }
+
+          &:active {
+            background: $very-dark-blue;
+            color: $off-white;
+          }
+        }
+      }
+    }
+
+    .new-section {
+      width: 91%;
+      background: $very-dark-blue;
+      color: $off-white;
+      height: 491px;
+      margin: auto;
+      padding: 24px;
+
+      @include media-breakpoint-up(lg) {
+        // Larger screens
+        height: 512px;
+      }
+
+      aside {
+        h2 {
+          font-size: 2rem;
+          font-family: $font-heading;
+          color: $soft-orange;
+          font-weight: 700;
+          margin-bottom: 30px;
+        }
+        .new-content {
+      
+          .news {
+            margin-bottom: 30px;
+            padding-bottom: 24px;
+            border-bottom: 1px solid $off-white;
+
+            &:last-child {
+              border: none;
+            }
+
+            h3 {
+              a {
+              font-size: 1.2rem;
+              color: $off-white;
+              font-weight: 700;
+              font-family: $font-heading;
+
+              &:hover {
+                color: $soft-orange;;
+              }
+              &:active {
+                color: $soft-orange;;
+              }
+              }
+             
+            }
+            
+            a {
+              font-size: 13px;
+              color: $off-white;
+              text-decoration: none;
+              font-weight: lighter;
+              font-family: $font-body;
+              margin-bottom: 30px;
+             
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .private-funding {
+    display: flex;
+    flex-direction: column;
+    max-width: 433px;
+    width: 100%;
+    margin: auto;
+    padding: 24px;
+
+    @include media-breakpoint-up(lg) {
+      // Larger screens
+      flex-direction: row;
+      max-width: 1140px;
+      gap: 12px;
+    }
+
+
+    .private {
+      display: flex;
+      gap: 27px;
+      margin-bottom: 20px;
+      
+
+      img {
+        width: 104px;
+        height: 132px;
+
+        @include media-breakpoint-up(lg) {
+          // Larger screens
+          width: 100px;
+          height: 128px;
+        }
+      }
+
+      .private-content {
+        h3 {
+          font-weight: 700;
+          color: $grayish-blue;
+          font-size: 35px;
+          font-family: $font-heading;
+        }
+
+        h4 {
+          color: $very-dark-blue;
+          font-family: $font-heading;
+          font-weight: 700;
+          font-size: 18px;
+
+          a {
+            color: $very-dark-blue;
+
+            &:hover {
+              color: $soft-red;
+            }
+
+            &:active {
+              color: $soft-red;
+            }
+          }
+        }
+
+        a {
+          text-decoration: none;
+          color: $dark-grayish-blue;
+          font-size: $body-size;
+          
+        }
+      }
+    }
+}
+}

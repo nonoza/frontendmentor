@@ -1,0 +1,15 @@
+{
+  "name": "news-homepage-main-2",
+  "version": "1.0.0",
+  "description": "Front End Mentor Assessment ",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:assets/css"
+  },
+  "author": "Pretty Kunene",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "sass": "^1.72.0"
+  }
+}
