@@ -18,4 +18,4 @@ closeIcon.addEventListener("click", () => {
 });
 
 
-  // AOS.init();
+  AOS.init();
