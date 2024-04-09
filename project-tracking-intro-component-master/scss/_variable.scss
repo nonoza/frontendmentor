@@ -1,0 +1,26 @@
+//import Bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+@import "./fonts";
+
+//theme colors
+$very-dark-blue: hsl(230, 29%, 20%);
+$very-grayish-blue: hsl(230, 11%, 40%);
+$grayish-blue: hsl(231, 7%, 65%);
+$light-grayish-blue: hsl(207, 33%, 95%);
+$red: hsl(0, 100%, 68%);
+
+//body font size
+$bodySize: 18px;
+
+
+
+//media queries
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 1110px,
+  xl: 1200px,
+  xxl: 1400px
+) !default;
