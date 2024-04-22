@@ -46,8 +46,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://nonoza.github.io/frontendmentor/newsletter-sign-up-with-success-message-main%202/)
+- Solution URL: [https://github.com/nonoza/frontendmentor/tree/main/newsletter-sign-up-with-success-message-main%202](https://github.com/nonoza/frontendmentor/tree/main/newsletter-sign-up-with-success-message-main%202)
+- Live Site URL: [https://nonoza.github.io/frontendmentor/newsletter-sign-up-with-success-message-main%202/](https://nonoza.github.io/frontendmentor/newsletter-sign-up-with-success-message-main%202/)
 
 ## My process
 
