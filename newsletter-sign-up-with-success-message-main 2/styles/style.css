@@ -170,6 +170,11 @@ a.email {
     .mobile {
         display: none;
     }
+    .heading {
+
+  font-size: 50px;
+  
+}
     
 }
 
