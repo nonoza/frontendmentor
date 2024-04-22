@@ -43,7 +43,7 @@ body{
 .thank-you-section {
     display: none;
     background: white;
-    width: 83%;
+    width: 89%;
     padding: 20px;
     margin: auto;
     
@@ -138,7 +138,7 @@ a.email {
     font-weight: bold;
 }
 
-@media only screen and (min-width: 1400px) {
+@media only screen and (min-width: 1000px) {
 
     body {
      background: var(--charcoal-grey);
@@ -170,12 +170,10 @@ a.email {
     .mobile {
         display: none;
     }
-.heading {
-  font-size: 50px;
+
+    .heading {
+       
+        font-size: 50px;
+        
+      }  
 }
-    
-}
-
-
-
-
