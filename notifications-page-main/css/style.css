@@ -92,7 +92,7 @@
 }
 
 .notify-alert {
-    background: aliceblue;
+    background: var(--background-color);
     height: 60px;
     padding: 25px 16px 25px;
     margin-bottom: 21px;
