@@ -53,4 +53,5 @@ form.forEach(form =>{
         }
     });
 })
+AOS.init();
  
