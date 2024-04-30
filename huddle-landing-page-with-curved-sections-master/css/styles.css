@@ -75,7 +75,7 @@ header {
 .sign-up {
     margin-top: 51px;
 }
-.sign-up button,.get-started-container button {
+.sign-up button,.get-started-container button, #submit-btn button {
     border: none;
     padding: 15px 37px;
     border-radius: 30px;
@@ -203,6 +203,9 @@ section.get-started-container h4 {
     padding-top: 22px;
     border-radius: 8px;
     border: none;
+    padding: 10px;
+    font-family: var( --body-font);
+    
 }
 .newsletter-form button {
     float: right;
@@ -235,6 +238,10 @@ a.email-address {
     color: #fff;
     text-decoration: none;
 }
+a.email-address:hover {
+    color: var(--pink);
+}
+
 .footer-two h4 {
     font-size: 30px;
     text-transform: uppercase;
@@ -245,6 +252,75 @@ img.logo {
     filter: invert(100%) saturate(0%);
     margin-bottom: 27px;
 }
+.newsletter-form form{
+    display: block;
+}
+.newsletter-form button:hover {
+    background: var(--very-pale-blue);
+    color: var(--pink);
+}
+
+.popup-wrapper {
+    background:rgb(0,0,0,0.5);
+    width:100%;
+    height:100%;
+    position:fixed;
+    top: 0;
+    display:none;   
+    min-height: 100vh;
+    
+    
+  }
+  .popup {
+    text-align: center;
+    background:#fff;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+    max-width:400px;
+    margin:auto;
+    padding: 34px 31px;
+    position:relative;
+    color: var(--pink);
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    border-radius: 15px;
+  }
+  .popup-close {
+    position:absolute;
+    top:8px;
+    right:20px;
+    font-size:30px;
+    cursor:pointer;
+    color: var(--very-dark-cyan);
+  }
+  form h2 {
+    color: var(--very-dark-cyan);
+    margin-bottom: 12px;
+
+  }
+  .popup-register {
+    display: block;
+  }
+  .popup-login {
+    display: none;
+  }
+  .popup-logo {
+    width: 56%;
+    margin: auto 0 20px ;
+    
+  }
+  input[type="email"], input[type="password"] ,input[type="text"]{
+    width: 92%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    font-family: 'Poppins', sans-serif;
+    border: 1px solid var(--pink);
+}
+
 @media screen and (min-width:1000px){
     section.get-started-container h4 {
             font-size: 33px;
@@ -289,6 +365,10 @@ img.logo {
         padding-left: 27rem;
         padding-right: 27rem;
         line-height: 26px;
+        font-size: 18px;
+        width: 38%;
+        margin: auto;
+        font-weight: 400;
     }
     .header-img {
         padding: 208px;
@@ -342,12 +422,14 @@ img.logo {
     .footer-two {
         bottom: 0px;
     }
-    .newsletter-form input {
+    .newsletter-form form input {
         width: 47%!important;
     }
-    .newsletter-form button{
-        margin-top: 0!important;
+    .newsletter-form form button{
         margin-right: 174px;
+        border-radius: 30px;
+        position: relative;
+        bottom: 12px;
     }
     img.logo {
         width: 30%;
@@ -357,6 +439,10 @@ img.logo {
     }
     .footer-two p {
         width: 52%;
+    }
+    .newsletter-form form {
+        display: flex;
+        gap: 30px;
     }
   
 }

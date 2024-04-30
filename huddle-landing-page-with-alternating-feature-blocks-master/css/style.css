@@ -37,14 +37,25 @@ section.logo-section {
     align-items: center;
 }
 button.grey-btn {
-    border: none;
-    padding: 10px 11px 10px 11px;
+        border: none;
+    padding: 18px 11px 15px 11px;
     border-radius: 30px;
     width: 30%;
-    background:white;
-    box-shadow: 1px 3px 2px var(--grayish-blue);
+    background: white;
+    box-shadow:1px 3px 2px hsl(208deg 11% 55% / 58%);
     font-weight: 700;
     cursor: pointer;
+}
+button.grey-btn:hover {
+    background: var(--pink);
+    color: #fff
+
+}
+.nav-cta {
+    color: #fff;
+}
+.nav-cta a:hover {
+    color: #fff;
 }
 .banner-section {
     padding: 49px 19px 22px;
