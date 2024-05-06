@@ -57,6 +57,10 @@ main {
                     font-family: $heading-font;
                     line-height: 24px;
                     font-weight: 700;
+
+                    @include media-breakpoint-up(lg) { // Larger screens
+                        font-size: 20px;
+                    }
                 }
                 
                 p {

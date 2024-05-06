@@ -11903,6 +11903,11 @@ main .container .content-container .content h1, main .container .content-contain
   line-height: 24px;
   font-weight: 700;
 }
+@media (min-width: 992px) {
+  main .container .content-container .content h1, main .container .content-container .content .h1 {
+    font-size: 20px;
+  }
+}
 main .container .content-container .content p {
   font-size: 14px;
   font-family: "Manrope Regular", sans-serif;
