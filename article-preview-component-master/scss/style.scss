@@ -1,0 +1,22 @@
+@import '../scss/component';
+@import '../scss/typography';
+@import '../scss/variables';
+
+body {
+    font-family: $body-font;
+    background: $light-blue-greyish;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+
+    p {
+        color: $desaurated-dark-blue;
+    }
+}
+
+
+
+
+
