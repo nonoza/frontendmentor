@@ -55,7 +55,7 @@
             font-size: 40px;
             font-weight: 400;
             margin-bottom: 34px;
-            font-family: $heading;
+            font-family: "Public Sans", sans-serif;
 
             @include media-breakpoint-up(lg) {
                font-size: 64px;

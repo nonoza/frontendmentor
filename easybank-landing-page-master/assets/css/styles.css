@@ -59560,7 +59560,7 @@ textarea.form-control-lg {
   font-size: 40px;
   font-weight: 400;
   margin-bottom: 34px;
-  font-family: PublicSansLight, sans-serif;
+  font-family: "Public Sans", sans-serif;
 }
 @media (min-width: 992px) {
   .hearder-banner .request-section h1, .hearder-banner .request-section .h1 {
@@ -71467,7 +71467,7 @@ textarea.form-control-lg {
 }
 .why-section h2, .why-section .h2 {
   font-size: 40px;
-  font-family: PublicSansLight, sans-serif;
+  font-family: "Public Sans", sans-serif;
   margin-bottom: 33px;
 }
 @media (min-width: 992px) {
@@ -71499,7 +71499,7 @@ textarea.form-control-lg {
   margin-bottom: 31px;
 }
 .why-section .services .service h3, .why-section .services .service .h3 {
-  font-family: PublicSansLight, sans-serif;
+  font-family: "Public Sans", sans-serif;
   color: hsl(233, 26%, 24%);
 }
 @media (min-width: 992px) {
@@ -119092,7 +119092,7 @@ footer .request-section button {
 }
 
 body {
-  font-family: ublicSansRegular, sans-serif !important;
+  font-family: "Public Sans", sans-serif !important;
   height: 2262px;
   background: hsl(0, 0%, 98%);
 }

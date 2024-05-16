@@ -14,7 +14,7 @@
 
   h2 {
     font-size: 40px;
-    font-family: $heading;
+    font-family: "Public Sans", sans-serif;
     margin-bottom: 33px;
 
     @include media-breakpoint-up(lg) {
@@ -47,7 +47,7 @@
       }
 
       h3 {
-        font-family: $heading;
+        font-family: "Public Sans", sans-serif;
         color: $dark-blue;
       }
 

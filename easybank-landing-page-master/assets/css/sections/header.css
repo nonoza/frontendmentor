@@ -23778,7 +23778,7 @@ textarea.form-control-lg {
   font-size: 40px;
   font-weight: 400;
   margin-bottom: 34px;
-  font-family: PublicSansLight, sans-serif;
+  font-family: "Public Sans", sans-serif;
 }
 @media (min-width: 992px) {
   .hearder-banner .request-section h1, .hearder-banner .request-section .h1 {
