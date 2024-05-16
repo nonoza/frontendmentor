@@ -58,7 +58,7 @@
             font-family: $heading;
 
             @include media-breakpoint-up(lg) {
-               font-size: 50px;
+               font-size: 59px;
                text-align: left;
             }
         }
@@ -70,6 +70,7 @@
             @include media-breakpoint-up(lg) {
                 text-align: left;
                 margin-bottom: 44px;
+                width: 65%;
              }
         }
 
