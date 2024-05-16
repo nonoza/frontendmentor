@@ -1,0 +1,63 @@
+@import "../variables";
+
+.why-section {
+  background: $light-grayish-blue;
+  padding: 71px 39px;
+  text-align: center;
+  
+
+  @include media-breakpoint-up(lg) {
+    text-align: left;
+    position: relative;
+    z-index: -99999;
+  }
+
+  h2 {
+    font-size: 40px;
+    font-family: $heading;
+    margin-bottom: 33px;
+
+    @include media-breakpoint-up(lg) {
+      margin-left: 130px;
+    }
+    
+  }
+
+  p {
+    color: $grayish-blue;
+    margin-bottom: 63px;
+
+    @include media-breakpoint-up(lg) {
+      width: 41%;
+      margin-left: 130px;
+    }
+  }
+  .services {
+    display: flex;
+    flex-direction: column;
+
+    @include media-breakpoint-up(lg) {
+      flex-direction: row;
+      margin-left: 130px;
+    }
+
+    .service {
+      .icon-services {
+        margin-bottom: 31px;
+      }
+
+      h3 {
+        font-family: $heading;
+        color: $dark-blue;
+      }
+
+      p {
+
+        @include media-breakpoint-up(lg) {
+          width: 79%;
+          margin-left: 0;
+        }
+      }
+    }
+  }
+}

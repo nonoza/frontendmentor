@@ -1,0 +1,13 @@
+@import './variables';
+
+//styles for buttons
+
+@mixin btn-primary {
+    background: linear-gradient(to left, $lime-green, $bright-cyan);
+    color: $white;
+    width: 163px;
+    border-radius: 30px;
+    font-size: 16px;
+    height: 46px;
+    cursor: pointer;
+}

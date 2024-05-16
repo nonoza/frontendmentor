@@ -1,0 +1,91 @@
+@import "../variables";
+@import "../mixin";
+
+footer {
+  background: $dark-blue;
+  color: $grayish-blue;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  text-align: center;
+  padding: 45px;
+
+  @include media-breakpoint-up(lg) {
+    flex-direction: row;
+ }
+
+  .social-media-section {
+    svg {
+      margin-bottom: 59px;
+    }
+
+    .social-media {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+
+      @include media-breakpoint-up(lg) {
+        justify-content: space-around;
+     }
+
+      svg {
+        cursor: pointer;
+
+        path {
+          &:hover {
+            fill: $lime-green;
+          }
+        }
+      }
+    }
+  }
+
+  .footer-links-one {
+
+    .footer-link-one {
+       list-style: none;
+       
+       > li {
+        padding-bottom: 12px;
+
+        a {
+            text-decoration: none;
+            color: $grayish-blue;
+    
+            &:hover {
+                color: $lime-green;
+            }
+           }
+
+       }    
+    }
+  }
+
+  .footer-links-two {
+    .footer-link-two {
+        list-style: none;
+        
+        > li {
+         padding-bottom: 12px;
+ 
+         a {
+             text-decoration: none;
+             color: $grayish-blue;
+     
+             &:hover {
+                 color: $lime-green;
+             }
+            }
+ 
+        }    
+     }
+  }
+
+  .request-section {
+   
+    button {
+        @include btn-primary;
+        margin-bottom: 31px;
+    }
+  }
+}

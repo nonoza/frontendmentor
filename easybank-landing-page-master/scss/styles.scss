@@ -1,0 +1,25 @@
+@import './typhography';
+@import './variables';
+@import './sections/navbar.scss';
+@import './sections/header.scss';
+@import './sections/icon_section.scss';
+@import './sections/latest_article.scss';
+@import './sections/footer.scss';
+
+body {
+    font-family: $body-font!important;// overiding the reboot.scss
+    height: 2262px;
+    background: $very-light-gray;
+   
+   .attribution {
+    font-size: 11px; text-align: center;
+    background: $dark-blue;
+    padding-bottom: 20px;
+    color: $white;
+
+    a {
+        color: $white;
+      
+    }
+   }
+}

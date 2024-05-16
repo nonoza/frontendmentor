@@ -1,0 +1,30 @@
+/*scss page for a study guide*/
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import '../scss/typhography';
+//colors
+$dark-blue:hsl(233, 26%, 24%);
+$lime-green:hsl(136, 65%, 51%);
+$bright-cyan: hsl(192, 70%, 51%);
+$grayish-blue:hsl(233, 8%, 62%);
+$light-grayish-blue:hsl(220, 16%, 96%);
+$very-light-gray:hsl(0, 0%, 98%);
+$white:hsl(0, 0%, 100%);
+
+//font size
+$body-size:18px;
+
+// scss-docs-start grid-breakpoints
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 1100px, // customised to accomordate for ipad pro for this project
+  xl: 1200px,
+  xxl: 1400px
+) !default;
+
+//font family
+
+$heading : PublicSansLight,sans-serif;
+$body-font: ublicSansRegular,sans-serif;
+
