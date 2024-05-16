@@ -2,7 +2,7 @@
 @import '../mixin';
 
 .hearder-banner {
-    background: url(/images/bg-intro-mobile.svg) no-repeat;
+    background: url("/images/bg-intro-desktop.svg") no-repeat;
     background-size: contain;
     position: relative;
     z-index: -1;
@@ -13,7 +13,7 @@
         flex-direction: row-reverse;
         justify-content: center;
         align-items: center;
-        background: url(/images/bg-intro-desktop.svg) no-repeat;
+        background: url("/images/bg-intro-desktop.svg") no-repeat;
         background-position:624px -250px;
         height: 652px;
         
