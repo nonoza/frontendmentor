@@ -65,6 +65,11 @@ header {
 
         .request-btn {
           @include btn-primary;
+
+          @include media-breakpoint-up(lg) {
+            position: relative;
+            right: 108px;
+          }
         }
       }
 

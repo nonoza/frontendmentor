@@ -35668,6 +35668,12 @@ header nav .hearder-menu .overlay .request-btn {
   height: 46px;
   cursor: pointer;
 }
+@media (min-width: 992px) {
+  header nav .hearder-menu .overlay .request-btn {
+    position: relative;
+    right: 108px;
+  }
+}
 header nav .hearder-menu .navbar-brand .logo {
   width: 47px;
   height: 30px;
