@@ -59564,7 +59564,7 @@ textarea.form-control-lg {
 }
 @media (min-width: 992px) {
   .hearder-banner .request-section h1, .hearder-banner .request-section .h1 {
-    font-size: 50px;
+    font-size: 59px;
     text-align: left;
   }
 }
@@ -59576,6 +59576,7 @@ textarea.form-control-lg {
   .hearder-banner .request-section p {
     text-align: left;
     margin-bottom: 44px;
+    width: 65%;
   }
 }
 .hearder-banner .request-section button {
