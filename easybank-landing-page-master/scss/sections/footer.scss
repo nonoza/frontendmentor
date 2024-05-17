@@ -12,6 +12,7 @@ footer {
 
   @include media-breakpoint-up(lg) {
     flex-direction: row;
+    text-align: left;
  }
 
   .social-media-section {

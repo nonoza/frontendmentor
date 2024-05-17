@@ -23739,6 +23739,7 @@ footer {
 @media (min-width: 992px) {
   footer {
     flex-direction: row;
+    text-align: left;
   }
 }
 footer .social-media-section svg {
