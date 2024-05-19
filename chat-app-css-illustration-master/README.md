@@ -42,7 +42,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [[Add solution URL here](https://github.com/nonoza/frontendmentor/blob/main/chat-app-css-illustration-master/README.md)]([https://your-solution-url.com](https://github.com/nonoza/frontendmentor/blob/main/chat-app-css-illustration-master/README.md))
 - Live Site URL: [https://nonoza.github.io/frontendmentor/chat-app-css-illustration-master/]([https://your-live-site-url.com](https://nonoza.github.io/frontendmentor/chat-app-css-illustration-master/))
 
 ## My process
