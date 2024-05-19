@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "Fira Sans Bold";
+  src: url("fonts/Rubik/static/Rubik-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Fira Sans Light";
+  src: url("fonts/Rubik/static/Rubik-Light.ttf") format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Fira Sans Regular";
+  src: url("fonts/Rubik/static/Rubik-Regular.ttf") format("truetype");
+  font-weight: 500;
+}
+.top-bg {
+  position: relative;
+}
+.top-bg:before {
+  content: "";
+  position: absolute;
+  background: linear-gradient(to bottom, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+  height: 500px;
+  width: 188px;
+  border-radius: 0 0 15rem;
+  z-index: -1;
+}
+@media only screen and (min-width: 1100px) {
+  .top-bg:before {
+    width: 420px;
+    height: 701px;
+    border-radius: 0 0 25rem 25rem;
+    left: -47px;
+  }
+}
+
+.bottom-bg::after {
+  content: "";
+  position: absolute;
+  background: hsla(289, 100%, 72%, 0.037);
+  height: 500px;
+  width: 188px;
+  border-radius: 15rem 0 0 0;
+  z-index: -1;
+  right: 0;
+}
+@media only screen and (min-width: 1100px) {
+  .bottom-bg::after {
+    bottom: 100%;
+  }
+}
+
+/*# sourceMappingURL=background.css.map */

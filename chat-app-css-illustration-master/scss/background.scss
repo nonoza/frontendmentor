@@ -1,0 +1,45 @@
+@import './variables';
+
+.top-bg {
+    position: relative;
+
+    &:before {
+        content: '';
+        position: absolute;
+        background: linear-gradient(to bottom, $light-magenta, $light-violet);
+        height: 500px;
+        width: 188px;
+        border-radius: 0 0 15rem;
+        z-index: -1;
+
+        @media only screen and (min-width: 1100px) {
+            width: 420px;
+            height: 701px;
+            border-radius: 0 0 25rem 25rem;
+            left: -47px;
+        }
+    }
+
+  
+}
+.bottom-bg {
+    &::after {
+        content: "";
+        position: absolute;
+        background: hsla(289, 100%, 72%, 0.037);
+        height: 500px;
+        width: 188px;
+        border-radius: 15rem 0 0 0;
+        z-index: -1;
+        right: 0;
+
+        @media only screen and (min-width: 1100px) {
+            width: 324px;
+            height: 750px;
+            top: 15%;
+            bottom: 50%;
+           
+         
+        }
+    }
+}

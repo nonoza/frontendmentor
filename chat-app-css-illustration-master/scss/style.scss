@@ -1,0 +1,9 @@
+@import './variables';
+@import './background.scss';
+@import './phone.scss';
+body {
+    margin: 0;
+  
+    background: $light-grayish-violet;
+    font-family: "Rubik", sans-serif;
+}

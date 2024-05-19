@@ -1,0 +1,38 @@
+@import './typhography';
+// @import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+//colors
+//Primary Colors
+$pale-violet: hsl(276, 100%, 81%);
+$moderate-violet: hsl(276, 55%, 52%);
+$desaturated-dark-violet: hsl(271, 15%, 43%);
+$grayish-blue: hsl(206, 6%, 79%);
+$dark-grayish-violet: hsl(270, 7%, 64%);
+
+//gradient colors
+$light-magenta: hsl(293, 100%, 63%);
+$light-violet: hsl(264, 100%, 61%);
+
+//Secondary Colors
+$white:hsl(0, 0%, 100%);
+$light-grayish-violet:hsl(270, 20%, 96%);
+$very-dark-desaturated-violet:hsl(271, 36%, 24%);
+$very-light-magenta:hsl(289, 100%, 72%);
+
+//font size
+$body-size: 18px;
+
+//font famly
+$font-heading: "Fira Sans Bold", sans-serif;
+$body-font: "Fira Sans Regular",sans-serif;
+
+
+// scss-docs-start grid-breakpoints
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 1100px, // customised to accomordate for ipad pro for this project
+  xl: 1200px,
+  xxl: 1400px
+) !default;
