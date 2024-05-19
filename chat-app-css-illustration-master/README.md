@@ -42,8 +42,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/nonoza/frontendmentor/tree/main/chat-app-css-illustration-master](https://github.com/nonoza/frontendmentor/tree/main/chat-app-css-illustration-master)
+- Live Site URL: [https://nonoza.github.io/frontendmentor/chat-app-css-illustration-master/](https://nonoza.github.io/frontendmentor/chat-app-css-illustration-master/)
 
 ## My process
 - Build an html structure
@@ -63,7 +63,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Website - [Pretty Kunene](https://prettynkunene.co.za/)
+- Frontend Mentor - [@nonoza](https://www.frontendmentor.io/profile/nonoza)
+- LinkedIn - [Nonhlanhla Pretty Kunene](https://www.linkedin.com/in/nonhlanhla-pretty-kunene-784118a9/)
 
 
