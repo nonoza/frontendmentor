@@ -49,6 +49,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Build an html structure
 - Installed NPM package to install Sass and Bootsrap
 - created a script on package.json for sass compile("compile:sass": "sass --watch scss:asserts/css")
+- Added AOS(Js Library) for transaction 
 
 ### Built with
 
