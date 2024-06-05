@@ -1,0 +1,159 @@
+@import "../variables";
+
+.feature-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  @include media-breakpoint-up(lg) {
+    margin-bottom: 83px;
+  }
+
+  h2 {
+    color: $very-dark-blue;
+    font-weight: 700;
+    margin-bottom: 44px;
+  }
+
+  p {
+    text-align: center;
+    width: 88%;
+    color: $grayish-blue;
+
+    @include media-breakpoint-up(lg) {
+      padding: 0 23rem;
+    }
+  }
+}
+
+.tabs {
+  .tab-menus {
+    .tab-menu {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 73px;
+
+      @include media-breakpoint-up(lg) {
+        flex-direction: row;
+      }
+
+      .nav-item {
+        border-bottom: 1px solid $grayish-blue;
+        width: 315px;
+        text-align: center;
+        padding: 20px 0 20px;
+        position: relative;
+
+        &.active {
+          border-bottom: 5px solid $soft-red;
+        }
+
+        a {
+          color: $grayish-blue;
+
+          &:hover {
+            color: $soft-red;
+          }
+
+          &:active {
+            color: $soft-red;
+          }
+          &:focus {
+            color: $soft-red;
+          }
+        }
+      }
+    }
+  }
+  .tab-content {
+    .tab {
+      position: relative;
+
+      &.hidden {
+        display: none;
+      }
+      &.show {
+        display: block;
+      }
+      .left-background {
+        position: absolute;
+        background: $soft-blue;
+        width: 289px;
+        height: 204px;
+        right: 23%;
+        z-index: -1;
+        top: 60px;
+        border-radius: 0 36% 36% 0;
+
+        @include media-breakpoint-up(lg) {
+          width: 623px;
+          height: 357px;
+          right: 60%;
+        }
+      }
+
+      .content {
+        display: flex;
+        flex-direction: column;
+
+        @include media-breakpoint-up(lg) {
+          flex-direction: row;
+          gap: 128px;
+        }
+
+        .image {
+          img {
+            width: 311px;
+            height: 206px;
+            position: relative;
+            left: 31px;
+
+            @include media-breakpoint-up(lg) {
+              width:538px;
+              height: 100%;
+              left: 76px;
+            }
+          }
+        }
+
+        .copy {
+          margin-top: 130px;
+          text-align: center;
+
+          @include media-breakpoint-up(lg) {
+            width: 50%;
+            text-align: left;
+          }
+
+          p {
+            @include media-breakpoint-up(lg) {
+             margin-right: 300px;
+            }
+          }
+
+          .for-more {
+            background: $soft-blue;
+            padding: 12px;
+            text-decoration: none;
+            font-size: $body-size;
+            color: $white;
+            border-radius: 5px;
+            font-size: 14px;
+            font-weight: 700;
+            border: none;
+            cursor: pointer;
+
+            &:hover {
+              border: 2px solid $soft-blue;
+              background: $white;
+              color: $soft-blue;
+            }
+
+          }
+        }
+      }
+    }
+  }
+}

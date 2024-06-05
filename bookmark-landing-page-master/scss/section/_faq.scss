@@ -1,0 +1,88 @@
+@import "../variables";
+
+.faq-section {
+    padding: 0 29px;
+    margin-bottom: 46px;
+
+    @include media-breakpoint-up(lg) {
+        margin-top: 236px;
+    }
+
+    .faq-content {
+        text-align: center;
+
+        h2 {
+            color: $very-dark-blue;
+            font-weight: 700;
+            margin-bottom: 44px;
+
+        }
+
+        p {
+            text-align: center;
+            color: $grayish-blue;
+
+            @include media-breakpoint-up(lg) {
+                padding: 0 27rem;
+            }
+        }
+    }
+
+    .faq {
+        @include media-breakpoint-up(lg) {
+            width: 35%;
+            margin: auto;
+        }
+
+        details {
+            border-bottom: 1px solid #000;
+
+            summary {
+                font-size: 15px;
+                margin: 20px 0;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                color: $grayish-blue;
+                font-weight: bold;
+
+                &:hover {
+                    color: $soft-red;;
+                }
+    
+                &:active {
+                    color: $soft-red;;
+                }
+            }
+
+            p {
+                font-size: 14px;
+                color: $grayish-blue;
+            }
+        }
+    }
+
+    .more-cta {
+        text-align: center;
+        margin-top: 57px;
+
+        button {
+            background: $soft-blue;
+            border: none;
+            padding: 12px;
+            text-decoration: none;
+            font-size: $body-size;
+            color: $white;
+            border-radius: 5px;
+            font-size: 14px;
+            font-weight: 700;
+            cursor: pointer;
+
+            &:hover {
+                border: 2px solid $soft-blue;
+                background: $white;
+                color: $soft-blue;
+            }
+        }
+    }
+}

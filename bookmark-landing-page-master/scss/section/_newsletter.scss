@@ -1,0 +1,104 @@
+@import "../variables";
+
+.newsletter {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: $soft-blue;
+    text-align: center;
+    padding: 20px;
+    color: $white;
+    height: 362px;
+    
+    small {
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        font-size: 12px;
+    }
+
+    h3 {
+        padding: 0 20px;
+        margin-bottom: 12px;
+
+        @include media-breakpoint-up(lg) {
+            padding: 0px 50px;
+            margin-bottom: 12px;
+            font-size: 3re;
+            width: 450px;
+            margin: 0 auto 16px;
+          } 
+    }
+
+    .news {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+
+        @include media-breakpoint-up(lg) {
+            flex-direction: row;
+            align-items: flex-start;
+            gap: 14px;
+          }
+
+          .input-and-msg {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+
+            @include media-breakpoint-up(lg) {
+           
+                width: 25%;
+              }
+           
+            input {
+                width: 100%;
+                padding: 0 0 0 12px;
+                margin-bottom: 20px;
+                height: 47px;
+                border: none;
+                font-size: 14px;
+                border-radius: 5px;
+                outline: none;
+    
+                
+            }
+            .error-mgs {
+                background: $soft-red;
+                font-size: 0.64rem;
+                color: $white;
+                position: relative;
+                bottom: 27px;
+                width: 100%;
+                left: 0%;
+                border-bottom-left-radius: 5px;
+                border-bottom-right-radius: 5px;
+                text-align: left;
+                padding-left: 12px;
+                font-style: italic;
+            }
+           
+        }
+
+       
+
+        button {
+            width: 100%;
+            border: none;
+            color: $white;
+            background: $soft-red;
+            height: 47px;
+            border-radius: 5px;
+
+            &:hover {
+                border: 2px solid $soft-red;
+                color: $soft-red;
+                background: $white;
+                }
+
+            @include media-breakpoint-up(lg) {
+                width: 10%;
+              }
+        }
+        }
+    }

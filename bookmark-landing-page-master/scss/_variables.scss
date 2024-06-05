@@ -1,0 +1,25 @@
+@import '../scss/font';
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+//colors
+$soft-blue:hsl(231, 69%, 60%);
+$soft-red: hsl(0, 94%, 66%);
+$grayish-blue:hsl(229, 8%, 60%);
+$very-dark-blue:hsl(229, 31%, 21%);
+$white: #fff;
+
+//size
+$body-size:18px;
+
+//Font Family
+
+$heading: 'RubikRegular',sans-serif;
+$bodyFont: 'RubikRegular',sans-serif;
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);

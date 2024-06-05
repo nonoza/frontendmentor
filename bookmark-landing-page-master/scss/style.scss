@@ -1,0 +1,34 @@
+@import './section/navbar';
+@import './section/hero';
+@import 'font';
+@import './section/feature';
+@import './section/download';
+@import './section/faq';
+@import './section/newsletter';
+@import './section/footer';
+
+body {
+    font-size: $body-size !important;
+    color: $grayish-blue;
+
+    @include media-breakpoint-up(lg) {
+        .body-section {
+            max-width: 1400px;
+            margin: auto !important;
+        }
+    }
+
+    .attribution {
+        color: $white;
+
+        a {
+            color: $white;
+            text-decoration: none;
+
+            &:hover {
+                color: $soft-red;
+            }
+        }
+    }
+}
+

@@ -1,0 +1,119 @@
+@import "../variables";
+
+.hero-section {
+    display: flex;
+    flex-direction: column-reverse;
+    position: relative;
+
+    @include media-breakpoint-up(lg) {
+        flex-direction: row;
+    }
+
+    .bg-color {
+        position: absolute;
+        background: $soft-blue;
+        width: 289px;
+        height: 204px;
+        left: 23%;
+        float: left;
+        z-index: -1;
+        top: 60px;
+        border-radius: 36% 0 0 36%;
+
+        @include media-breakpoint-up(lg) {
+            width: 501px;
+            height: 353px;
+            left: 68%;
+        }
+    }
+
+    .image {
+        img {
+            width: 97%;
+
+            @include media-breakpoint-up(lg) {
+                width: 98%;
+                position: relative;
+                bottom: 31px;
+                left: 250px;
+            }
+        }
+    }
+
+    .hero-content {
+        margin-top: 72px;
+        text-align: center;
+        padding: 20px;
+
+        @include media-breakpoint-up(lg) {
+            text-align: left;
+        }
+
+        h1 {
+            color: $very-dark-blue;
+            font-weight: 700;
+            margin-bottom: 34px;
+
+            @include media-breakpoint-up(lg) {
+                font-size: 49px;
+                width: 500px;
+            }
+        }
+
+        p {
+            color: $grayish-blue;
+
+            @include media-breakpoint-up(lg) {
+                width: 500px;
+            }
+        }
+
+        .social-cta {
+            display: flex;
+            justify-content: center;
+            gap: 12px;
+            align-items: center;
+
+            @include media-breakpoint-up(lg) {
+                align-items: flex-start;
+                justify-content: flex-start;
+            }
+
+            .chrome-cta {
+                background: $soft-blue;
+                padding: 12px;
+                text-decoration: none;
+                font-size: $body-size;
+                color: $white;
+                border-radius: 5px;
+                font-weight: 700;
+                cursor: pointer;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+
+                &:hover {
+                    border: 2px solid $very-dark-blue;
+                    background: $white;
+                    color: $soft-blue;
+                }
+            }
+
+            .fire-fox-cta {
+                background: hsl(0deg 0% 90.44% / 46%);
+                padding: 12px;
+                text-decoration: none;
+                font-size: $body-size;
+                color: $very-dark-blue;
+                border-radius: 5px;
+                font-weight: 700;
+                cursor: pointer;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+
+                &:hover {
+                    border: 2px solid $very-dark-blue;
+                    background: $white;
+                    color: $very-dark-blue;
+                }
+            }
+        }
+    }
+}

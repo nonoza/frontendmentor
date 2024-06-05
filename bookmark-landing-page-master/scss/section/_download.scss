@@ -1,0 +1,93 @@
+@import "../variables";
+
+.download-section {
+    margin-top: 61px;
+    text-align: center;
+    padding: 0 29px;
+
+    @include media-breakpoint-up(lg) {
+        margin-top: 180px;
+    }
+
+    .download-content {
+        margin-bottom: 48px;
+
+        p {
+            color: $grayish-blue;
+
+            @include media-breakpoint-up(lg) {
+                padding: 0 25rem;
+            }
+        }
+    }
+
+    .download-app {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+
+        @include media-breakpoint-up(lg) {
+            flex-direction: row;
+            gap: 32px;
+        }
+
+        .app {
+            width: 281px;
+            height: 369px;
+            margin-bottom: 56px;
+            background: $white;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            position: relative;
+            border-radius: 10px;
+
+            @include media-breakpoint-up(lg) {
+                &.firefox {
+                    top: 30px;
+                }
+
+                &.opera {
+                    top: 60px;
+                }
+            }
+
+            .app-content {
+                padding: 2.5rem 2.5rem 0;
+
+                img {
+                    margin-bottom: 39px;
+                }
+
+                h3 {
+                    margin: 0;
+                }
+
+                p {
+                    font-size: 18px;
+                    color: $grayish-blue;
+                    opacity: 0.8;
+                }
+            }
+
+            .dots {
+                border-top: 8px dotted $grayish-blue;
+                margin-bottom: 24px;
+                opacity: 0.4;
+            }
+
+            button {
+                border: none;
+                padding: 12px;
+                border-radius: 8px;
+                background: $soft-blue;
+                color: $white;
+
+                &:hover {
+                    border: 2px solid $soft-blue;
+                    background: $white;
+                    color: $soft-blue;
+                }
+            }
+        }
+    }
+}
