@@ -48,55 +48,74 @@ article.spending-section {
     background: var(--very-place-orange);
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 2px 2px 2px --very-place-orange;
+    box-shadow: 2px 2px 2px var(--very-place-orange);
     margin-bottom: 20px;
 }
 .chat-info {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    border-bottom: 2px solid var(--soft-red);
+    margin-bottom: 32px;
+}
+
+.week {
+    width: 80%;
+}
+.week :hover {
+    opacity: 2;
 }
 .mon-chat {
-    width: 35px;
     background: var(--soft-red);
     height: 35px;
     border-radius: 5px;
+    margin: auto;
+    
+}
+.mon-chat:hover {
+    transition: height 0.3s ease 0s;
 }
 .tue-chat {
-    width: 35px;
+
     background: var(--soft-red);
     height: 65px;
     border-radius: 5px;
+    margin: auto;
 }
 .wed-chat {
-    width: 35px;
+    
     background: var(--cyan);
     height: 95px;
     border-radius: 5px;
+    margin: auto;
 }
 .thu-chat {
-    width: 35px;
+   
     background: var(--soft-red);
     height: 55px;
     border-radius: 5px;
+    margin: auto;
 }
 .fri-chat {
-    width: 35px;
+  
     background: var(--soft-red);
     height: 45px;
     border-radius: 5px;
+    margin: auto;
 }
 .sat-chat {
-    width: 35px;
+   
     background: var(--soft-red);
     height: 85px;
     border-radius: 5px;
+    margin: auto;
 }
 .sun-chat {
-    width: 35px;
+    
     background: var(--soft-red);
     height: 45px;
     border-radius: 5px;
+    margin: auto;
 }
 .total {
     display: flex;
@@ -109,10 +128,35 @@ h2 {
     cursor: pointer;
 }
 .amount{
-    display: none;
+    opacity: 0;
+    visibility: hidden;
+    position: relative;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: hsl(25, 47%, 15%);
+    padding: 5px;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 5px;
+    font-size: 12px;
+    color: hsl(0deg 0% 100%);
+    white-space: nowrap;
+    z-index: 10;
+    transition: opacity 0.3s ease 0s;
+    bottom: 12px;
+    width: 100%;
+    text-align: center;
 }
 @media (min-width: 1000px) {
     section.chat-component {
-        width: 380px;
+        width: 470px;
+    }
+    .week {
+        width: 100%;
+    }
+    .chat-info {
+
+        justify-content: space-around;
+     
     }
   }
