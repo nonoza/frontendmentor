@@ -39,7 +39,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Click Here](https://github.com/nonoza/frontendmentor/tree/main/intro-section-with-dropdown-navigation-main)
-- Live Site URL: [Click Here](https://nonoza.github.io/frontendmentor/intro-section-with-dropdown-navigation-main/)
+- Live Site URL: [Click Here](https://nonoza.github.io/frontendmentor/Intro%20section%20with%20dropdown%20navigation%20solution/)
 
 ## My process
 
