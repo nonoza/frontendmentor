@@ -149,13 +149,14 @@ a.email {
      flex-direction: column;
     }
     .form-sectons {
-        flex-direction: row; 
+        flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        width: 85%;
+        width: 53rem;
         margin: auto;
         border-radius: 2rem;
         padding: 20px;
+        max-width: 100%;
         
     }
     .thank-you-section {
@@ -164,7 +165,7 @@ a.email {
     }
     .desktop {
         display: block;
-        width: 100%;
+       
     }
 
     .mobile {
