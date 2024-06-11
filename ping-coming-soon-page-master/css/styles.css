@@ -32,7 +32,7 @@ h1 span {
 
 }
 form {
-    margin-bottom: 91px;
+    margin-bottom: 49px;
 }
 input#email {
     width: 421px;
@@ -57,7 +57,6 @@ input#email:focus {
     font-weight: lighter;
     color: hsl(0, 0%, 59%);
     font-size: 16px;
-    margin-left: 20px;
 }
 button.cta {
     width: 198px;
@@ -73,11 +72,11 @@ button.cta {
 }
 .image-placeholder img {
     width: 643px;
-    margin-bottom: 95px;
+  
 }
 small {
     display: grid;
-    margin: 20px;
+    margin: 6px 20px 0;
     color: hsl(354, 100%, 66%);
     font-style: italic;
 }
