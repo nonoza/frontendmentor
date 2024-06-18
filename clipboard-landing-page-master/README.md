@@ -33,7 +33,7 @@ This is a solution to the [Clipboard landing page challenge on Frontend Mentor](
 ### Links
 
 - Solution URL: ](https://github.com/nonoza/frontendmentor/tree/main/clipboard-landing-page-master)](https://github.com/nonoza/frontendmentor/tree/main/clipboard-landing-page-master)
-- Live Site URL:(https://nonoza.github.io/frontendmentor/clipboard-landing-page-master/)](https://nonoza.github.io/frontendmentor/clipboard-landing-page-master/)
+- Live Site URL:(https://nonoza.github.io/frontendmentor/clipboard-landing-page-master/)](https://nonoza.github.io/frontendmentor/clipboard-landing-page-master//)
 
 ## My process
 - Built with HTML5 for body structure
