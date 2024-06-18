@@ -13,10 +13,10 @@ submitBtn.addEventListener('click', () => {
   const email = emailField.value;
 
   if (email == null || email == "") {
-    errorMessage.innerHTML = "Please provide an email";
+    errorMessage.innerHTML = "Whoops! It looks like you forgot to add your email.";
     emailborder.style.border = "1px solid red";
   } else if (!pattern.test(email)) {
-    errorMessage.innerHTML = "Please provide a valid email address";
+    errorMessage.innerHTML = "Please provide a valid email address.";
     emailborder.style.border = "1px solid red";
   } else {
     errorMessage.innerHTML = "";
