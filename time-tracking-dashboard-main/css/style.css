@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+:root {
+    --blue: hsl(246, 80%, 60%);
+
+    /* Time tracker background colors */
+    --light-red-work: hsl(15, 100%, 70%);
+    --soft-blue-play: hsl(195, 74%, 62%);
+    --light-red-study:hsl(348, 100%, 68%);
+    --lime-green-exercise: hsl(145, 58%, 55%);
+    --violet-social: hsl(264, 64%, 52%);
+    --soft-orange-self-care: hsl(43, 84%, 65%);
+
+    /* Netrual colors*/
+    --very-dark-blue:hsl(226, 43%, 10%);
+    --dark-blue:hsl(235, 46%, 20%);
+    --desaturated-blue:hsl(235, 45%, 61%);
+    --pale-blue:hsl(236, 100%, 87%);
+    --white: #ffffff;
+
+    /* font family */
+    --font-family : "Rubik", sans-serif;
+
+}
+
+body {
+    font-family: var(--font-family);
+    background: var(--very-dark-blue);
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 18px;
+    min-height: 100vh;
+}
+
+section.time-track-section {
+    display: flex;
+    flex-direction: column;
+    width: 93%;
+    margin: auto;
+    
+}
+.profile-container {
+    background: var(--dark-blue);
+    border-radius: 15px;  
+}
+
+.profile-container .links {
+    padding: 12px; 
+    text-align: center;
+}
+
+h1.name {
+    margin: 0;
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+article.profile {
+    background: var(--blue);
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 115px;
+    border-radius: 15px;
+    margin-bottom: 7px;
+    gap:19px;
+}
+
+.profle-img {
+    width: 22%;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid  var(--white);
+}
+
+
+.profile-name span {
+font-weight: lighter;
+}
+
+.profile-container .links {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 13px;
+}
+
+.profile-container .links a {
+    color: var(--pale-blue);
+    text-decoration: none;
+    
+    font-weight: lighter;
+}
+
+.profile-container .links a:active {
+    color: var(--white);
+}
+
+.profile-container .links a:hover {
+    color: var(--white);
+}
+
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu .title {
+    font-weight: 400;
+    font-size: 17px;
+}
+
+article.time {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    bottom: 29px;
+}
+
+
+
+section.time-one, section.time-two {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.content {
+    background: var(--dark-blue);
+    padding: 12px;
+    height: 112px;
+    border-radius: 15px;
+}
+
+article.time h3 {
+    font-weight: 300;
+    font-size: 40px;
+}
+
+.icon {
+    position: relative;
+    top: 42px;
+    z-index: -1;
+    border-radius: 15px;
+    overflow: hidden;
+    height: 75px;
+}
+
+.icon img {
+    position: relative;
+    left: 71%;
+    bottom: 15%;
+}
+
+#work-bg {
+    background: var(--light-red-work);
+}
+
+#play-bg {
+    background: var(--soft-blue-play);
+}
+
+#study-bg {
+    background: var(--light-red-study);
+}
+
+#exercise-bg {
+    background: var(--lime-green-exercise);
+}
+
+#social-bg {
+    background: var(--violet-social);
+}
+
+#self-bg {
+    background: var(--soft-orange-self-care);
+}
+
+.previous-time {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+
+@media only screen and (min-width: 600px) {
+    main {
+        width: calc(100% - 9rem* 2);
+    }
+
+    section.time-track-section {
+    flex-direction: row; 
+    align-items: end;
+    gap: 4rem;
+    }
+
+    article.profile {
+        height: 299px;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    section.time-one,  section.time-two {
+        flex-direction: row;
+        gap: 20px;
+    }  
+
+    article.time {
+        align-items: start;
+        flex-direction: column;   
+    }
+
+    .previous-time {
+        position: relative;
+        bottom: 70px;
+        margin-bottom: 40px;
+    }
+
+    .block {
+        width: 100%;
+        min-width: 36%;
+    }
+
+    .content {
+        height: 156px;
+ 
+    }
+
+    h1.name {
+        font-size: 3rem;
+        width: 30px;
+    }
+
+    .profile-container .links {
+        flex-direction: column;
+        align-items: start;
+        margin-bottom: 12px;
+    }
+    
+    .profile-container .links a {
+        margin-bottom: 12px;
+    }
+
+    article.time h3 {
+        font-weight: 300;
+        font-size: 50px;
+    }
+  }
+
+
+
+

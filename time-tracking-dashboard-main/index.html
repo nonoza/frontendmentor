@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel ="stylesheet" href="./css/style.css"/>
+
+  
+  <title>Frontend Mentor | Time tracking dashboard</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+<main>
+  <section class="time-track-section"> 
+    <!--Start of Profile Section-->
+  <section class="profile-container">
+  <article class="profile">
+      <img src="./images/image-jeremy.png" alt="image-jeremy" class="profle-img"/>
+    <div class="profile-name">
+      <span>Report for</span>
+      <h1 class="name">Jeremy Robson</h1>
+    </div>
+  </article>
+  <section class="links">
+    <a href="#" class="daily">Daily</a>
+    <a href="#" class="weekly" active> Weekly</a>
+    <a href="#" class="monthly">Monthly</a>
+  </section>
+  </section>
+    <!--End of Profile Section-->
+  
+    <!--Time Tracker-->
+    <section class="time-tracker-container">
+      <section class="time-one">
+        <article class="work-section block">
+          <div class="icon" id="work-bg">
+            <img src="./images/icon-work.svg" alt="icon-work"/>
+          </div>
+          <div class="content">
+            <div class="menu">
+              <h2 class="title">Work</h2>
+              <img src="./images/icon-ellipsis.svg" alt="icon-ellipsis"/>
+            </div>
+            <article class="time">
+              <h3></h3>
+              <h4 class="previous-time">Last Week - <span class="previously"></span></h4>
+            </article>
+          </div>
+        </article>
+        <article class="play-section block">
+          <div class="icon" id="play-bg">
+            <img src="./images/icon-play.svg" alt="icon-work"/>
+          </div>
+          <div class="content">
+            <div class="menu">
+              <h2 class="title">Play</h2>
+              <img src="./images/icon-ellipsis.svg" alt="icon-ellipsis"/>
+            </div>
+            <article class="time">
+              <h3></h3>
+              <h4 class="previous-time">Last Week - <span class="previously"></span></h4>
+            </article>
+          </div>
+        </article>
+        <article class="study-section block">
+          <div class="icon" id="study-bg">
+            <img src="./images/icon-study.svg" alt="icon-study"/>
+          </div>
+          <div class="content">
+            <div class="menu">
+              <h2 class="title">Study</h2>
+              <img src="./images/icon-ellipsis.svg" alt="icon-ellipsis"/>
+            </div>
+            <article class="time">
+              <h3></h3>
+              <h4 class="previous-time">Last Week - <span class="previously"></span></h4>
+            </article>
+          </div>
+        </article>
+      </section>
+      <section class="time-two">
+        <article class="exercise-section block">
+          <div class="icon" id="exercise-bg">
+            <img src="./images/icon-exercise.svg" alt="icon-exercise"/>
+          </div>
+          <div class="content">
+            <div class="menu">
+              <h2 class="title">Exercise</h2>
+              <img src="./images/icon-ellipsis.svg" alt="icon-ellipsis"/>
+            </div>
+            <article class="time">
+              <h3></h3>
+              <h4 class="previous-time">Last Week - <span class="previously"></span></h4>
+            </article>
+          </div>
+        </article>
+        <article class="social-section block">
+          <div class="icon" id="social-bg">
+            <img src="./images/icon-social.svg" alt="icon-social"/>
+          </div>
+          <div class="content">
+            <div class="menu">
+              <h2 class="title">Socials</h2>
+              <img src="./images/icon-ellipsis.svg" alt="icon-ellipsis"/>
+            </div>
+            <article class="time">
+              <h3></h3>
+              <h4 class="previous-time">Last Week - <span class="previously"></span></h4>
+            </article>
+          </div>
+        </article>
+        <article class="self-section block">
+          <div class="icon" id="self-bg">
+            <img src="./images/icon-self-care.svg" alt="icon-self-care"/>
+          </div>
+          <div class="content">
+            <div class="menu">
+              <h2 class="title">Self Care</h2>
+              <img src="./images/icon-ellipsis.svg" alt="icon-ellipsis"/>
+            </div>
+            <article class="time">
+              <h3></h3>
+              <h4 class="previous-time">Last Week - <span class="previously"></span></h4>
+            </article>
+          </div>
+        </article>
+      </section>
+    </section>
+  </section>
+  
+</main>
+<script src="./js/script.js"></script>
+  
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+
+</html>
