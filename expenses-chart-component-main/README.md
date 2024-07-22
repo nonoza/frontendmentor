@@ -38,7 +38,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Link to solution URL](https://www.frontendmentor.io/solutions/responsive-bar-chart-component-with-json-data-fetching-b2LJ5eTGIX)
-- Live Site URL: [Link to live site](https://elaineleung.github.io/frontendmentor/expenseschartcomponent/)
+- Live Site URL: [Link to live site](https://nonoza.github.io/frontendmentor/expenses-chart-component-main/)
 
 ## My process
 
@@ -51,17 +51,9 @@ Users should be able to:
 - Javascript
 
 
-### What I learned
 
-This is the first junior level project I worked on; the biggest difference I find between a junior project and a newbie one is the proficiency that is requried in Javascript. The JSON part wasn't that difficult since I actually use JSON on my own FM Github main site. Perhaps the biggest challenge I found wasn't with the coding but in figuring out the dimensions and sizes for everything because sometimes things don't line up with the designs given. It was also a challenge to name the classes in SCSS because I found myself nesting too many levels and eventually needed to figure out how to write everything in a way that's still succinct but readable. Overall, this was a fun weekend project, and I was proud of how bar graph turned.
 
-### Continued development
 
-Not sure how I'd use this in other projects, but I think one thing that can be worked on in my spare time is how to animate the bar charts to have them start from zero.
-
-### Useful resources
-
-- [min(), max(), clamp()](https://css-tricks.com/min-max-and-clamp-are-css-magic/) - This might have been the first time I really looked into how to use clamp, and even though I didn't end up using clamp() in the end, this is still useful for reference
 
 ## Author
 
@@ -70,4 +62,3 @@ Not sure how I'd use this in other projects, but I think one thing that can be w
 
 ## Acknowledgments
 
-I'd like to thank myself for getting into Scrimba's weeklong challenges a month ago because not only did I throw myself back into programming after a long absence, I also made a few things that I managed to use as a reference here (such as the hovering info boxes).
