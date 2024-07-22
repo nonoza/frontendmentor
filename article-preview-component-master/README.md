@@ -37,7 +37,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Pretty Kunene](https://github.com/nonoza/frontendmentor/tree/main/article-preview-component-master/)
+- Solution URL: [Github](https://github.com/nonoza/frontendmentor/tree/main/article-preview-component-master/)
 - Live Site URL: [Live](https://nonoza.github.io/frontendmentor/article-preview-component-master/)
 
 ## My process
