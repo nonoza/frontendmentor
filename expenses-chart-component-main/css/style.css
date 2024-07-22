@@ -64,6 +64,8 @@ article.spending-section {
 }
 .week p {
     text-align:center;
+}
+
 .week :hover {
     opacity: 2;
 }
@@ -156,6 +158,9 @@ h2 {
     .week {
         width: 100%;
     }
+    .week p {
+    text-align:center;
+}
     .chat-info {
 
         justify-content: space-around;
