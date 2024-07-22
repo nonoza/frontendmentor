@@ -30,9 +30,9 @@ Users should be able to:
 
 ### Screenshot
 
-![Mobile view of solution](./design/mobile-chat.png)
+![Mobile view of solution](./images/mobile-chat.png)
 
-![Desktop view of solution](./design/desktop-chat.png)
+![Desktop view of solution](./images/desktop-chat.png)
 
 
 ### Links
