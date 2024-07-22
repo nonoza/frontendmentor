@@ -48,9 +48,8 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow
-- SCSS
-- BEM
-- JSON
+- Javascript
+
 
 ### What I learned
 
