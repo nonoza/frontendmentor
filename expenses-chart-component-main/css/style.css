@@ -62,6 +62,8 @@ article.spending-section {
 .week {
     width: 80%;
 }
+.week p {
+    text-align:center;
 .week :hover {
     opacity: 2;
 }
