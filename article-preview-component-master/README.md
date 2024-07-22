@@ -54,7 +54,7 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://prettynkunene.co.za/)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/nonoza)
+- Website - [Pretty Kunene](https://prettynkunene.co.za/)
+- Frontend Mentor - [@nonoza](https://www.frontendmentor.io/profile/nonoza)
 
 
