@@ -37,8 +37,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/nonoza/frontendmentor/tree/main/article-preview-component-master)
-- Live Site URL: [Add live site URL here](https://nonoza.github.io/frontendmentor/article-preview-component-master/)
+- Solution URL: [[Add solution URL here](https://github.com/nonoza/frontendmentor/tree/main/article-preview-component-master)](https://github.com/nonoza/frontendmentor/tree/main/article-preview-component-master)
+- Live Site URL: [[Add live site URL here](https://nonoza.github.io/frontendmentor/article-preview-component-master)](https://nonoza.github.io/frontendmentor/article-preview-component-master/)
 
 ## My process
 
