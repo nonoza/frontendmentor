@@ -41,6 +41,9 @@ Users should be able to:
 - Live Site URL: [Link to live site](https://nonoza.github.io/frontendmentor/expenses-chart-component-main/)
 
 ## My process
+- Started with HTML
+- Used Javascript
+- Styling using CSS
 
 ### Built with
 
@@ -57,8 +60,7 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@elaineleung](https://www.frontendmentor.io/profile/elaineleung)
-- Twitter - [@elaineclleung](https://twitter.com/elaineclleung)
+- Frontend Mentor - [@nonoza](https://www.frontendmentor.io/profile/nonoza)
 
-## Acknowledgments
+
 
