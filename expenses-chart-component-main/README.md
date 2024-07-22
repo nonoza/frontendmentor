@@ -37,7 +37,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Link to solution URL](https://www.frontendmentor.io/solutions/responsive-bar-chart-component-with-json-data-fetching-b2LJ5eTGIX)
+- Solution URL: [Link to solution URL](https://github.com/nonoza/frontendmentor/tree/main/expenses-chart-component-main)
 - Live Site URL: [Link to live site](https://nonoza.github.io/frontendmentor/expenses-chart-component-main/)
 
 ## My process
