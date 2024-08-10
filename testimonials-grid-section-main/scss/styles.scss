@@ -1,0 +1,309 @@
+@import "./colors";
+@import "./fonts";
+@import "./grids";
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+body {
+    font-family: "Barlow Semi Condensed", sans-serif;
+    background: $light-grayish-blue;
+
+    .testimony_container {
+        display: grid;
+        padding: 10px;
+       
+
+
+        @include media-breakpoint-up(lg) {
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-areas:
+            "daniel daniel jonathan kira"
+            "jeanette patrick patrick kira";
+            grid-gap: 18px;
+            max-width: 81%;
+            margin: auto;
+            
+         
+        }
+
+        .daniel_container {
+            background: $moderate-violet;
+            color: $white;
+
+            @include media-breakpoint-up(lg) {
+                grid-area: daniel;
+            }
+
+            &.box {
+                margin-bottom: 15px;
+                padding: 20px;
+                border-radius: 10px;
+            }
+            .profile {
+                display: flex;
+                gap: 20px;
+                align-items: center;
+                margin-bottom: 25px;
+
+                .daniel_img {
+                    img {
+                        width: 50px;
+                        border-radius: 100%;
+                        border: 2px solid $white;
+                    }
+                }
+                .daniel_content {
+                    h4 {
+                        font-size: 1rem;
+                        margin: 0;
+                    }
+                    h5 {
+                        font-size: 0.75rem;
+                    }
+                }    
+            }
+            .quote {
+                p {
+                    font-size: 1.60rem;
+                    line-height: 1.70rem
+                }
+            }
+            .quote-content {
+                p {
+                    font-size: 0.80rem;
+
+                    @include media-breakpoint-up(lg) {
+                        font-size: 1rem;
+                    }
+                }
+            }
+
+            
+        }
+
+
+        .jonathan_container {
+            background: $very-dark-grayish-blue;
+            color: $white;
+
+            @include media-breakpoint-up(lg) {
+                grid-area: jonathan;
+            }
+
+            &.box {
+                margin-bottom: 15px;
+                padding: 20px;
+                border-radius: 10px;
+            }
+            .profile {
+                display: flex;
+                gap: 20px;
+                align-items: center;
+                margin-bottom: 25px;
+
+                .jonathan_img {
+                    img {
+                        width: 50px;
+                        border-radius: 100%;
+                        border: 2px solid $white;
+                    }
+                }
+                .jonathan_content {
+                    h4 {
+                        font-size: 1rem;
+                        margin: 0;
+                    }
+                    h5 {
+                        font-size: 0.75rem;
+                    }
+                }    
+            }
+            .quote {
+                p {
+                    font-size: 1.60rem;
+                    line-height: 1.70rem
+                }
+            }
+            .quote-content {
+                p {
+                    font-size: 0.80rem;
+
+                    @include media-breakpoint-up(lg) {
+                        font-size: 1rem;
+                    }
+                }
+            }
+
+            
+        }
+
+        .jeanette_container {
+            background: $white;
+            color: $very-dark-grayish-blue;
+
+            @include media-breakpoint-up(lg) {
+                grid-area: jeanette;
+            }
+
+            &.box {
+                margin-bottom: 15px;
+                padding: 20px;
+                border-radius: 10px;
+            }
+            .profile {
+                display: flex;
+                gap: 20px;
+                align-items: center;
+                margin-bottom: 25px;
+
+                .jeanette_img {
+                    img {
+                        width: 50px;
+                        border-radius: 100%;
+                        border: 2px solid $white;
+                    }
+                }
+                .jeanette_content {
+                    h4 {
+                        font-size: 1rem;
+                        margin: 0;
+                    }
+                    h5 {
+                        font-size: 0.75rem;
+                    }
+                }    
+            }
+            .quote {
+                p {
+                    font-size: 1.60rem;
+                    line-height: 1.70rem
+                }
+            }
+            .quote-content {
+                p {
+                    font-size: 0.80rem;
+
+                    @include media-breakpoint-up(lg) {
+                        font-size: 1rem;
+                    }
+                }
+            }
+
+            
+        }
+
+
+        .patrick_container {
+            background: $very-darkish-blue;
+            color: $white;
+
+            @include media-breakpoint-up(lg) {
+                grid-area: patrick;
+            }
+
+            &.box {
+                margin-bottom: 15px;
+                padding: 20px;
+                border-radius: 10px;
+            }
+            .profile {
+                display: flex;
+                gap: 20px;
+                align-items: center;
+                margin-bottom: 25px;
+
+                .patrick_img {
+                    img {
+                        width: 50px;
+                        border-radius: 100%;
+                        border: 2px solid $white;
+                    }
+                }
+                .patrick_content {
+                    h4 {
+                        font-size: 1rem;
+                        margin: 0;
+                    }
+                    h5 {
+                        font-size: 0.75rem;
+                    }
+                }    
+            }
+            .quote {
+                p {
+                    font-size: 1.60rem;
+                    line-height: 1.70rem
+                }
+            }
+            .quote-content {
+                p {
+                    font-size: 0.80rem;
+
+                    @include media-breakpoint-up(lg) {
+                        font-size: 1rem;
+                    }
+                }
+            }
+
+            
+        }
+
+        .kira_container {
+            background: $white;
+            color: $very-darkish-blue;
+
+            @include media-breakpoint-up(lg) {
+                grid-area: kira;
+            }
+
+            &.box {
+                margin-bottom: 15px;
+                padding: 20px;
+                border-radius: 10px;
+            }
+            .profile {
+                display: flex;
+                gap: 20px;
+                align-items: center;
+                margin-bottom: 25px;
+
+                .kira_img {
+                    img {
+                        width: 50px;
+                        border-radius: 100%;
+                        border: 2px solid $white;
+                    }
+                }
+                .kira_content {
+                    h4 {
+                        font-size: 1rem;
+                        margin: 0;
+                    }
+                    h5 {
+                        font-size: 0.75rem;
+                    }
+                }    
+            }
+            .quote {
+                p {
+                    font-size: 1.4rem;
+                    line-height: 1.70rem
+                }
+            }
+            .quote-content {
+                p {
+                    font-size: 0.80rem;
+
+                    @include media-breakpoint-up(lg) {
+                        font-size: 1rem;
+                    }
+                }
+            }
+
+            
+        }
+
+       
+
+    }
+}
